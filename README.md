@@ -1,0 +1,51 @@
+# Wine cultivar classification: INSE 6450 Milestone 1
+
+Prepared for Kameshwar Arora. Add your student ID and GitHub URL to the report before submission. This project is a course prototype, not a validated production authentication system. Review the work and follow your course's assistance disclosure policy.
+
+## Setup and run
+Requires Python 3.11 or 3.12. From this folder:
+
+```bash
+python -m venv .venv
+```
+
+Activate the environment (`.venv\Scripts\activate` on Windows, `source .venv/bin/activate` on macOS/Linux), then:
+
+```bash
+python -m pip install -r requirements.txt
+python process.py
+```
+
+No dataset download or API key is required. The unscaled source CSV is included in data/raw/wine.csv. To regenerate that CSV from the same scikit-learn version:
+
+```bash
+python -c "from sklearn.datasets import load_wine; load_wine(as_frame=True).frame.to_csv('data/raw/wine.csv', index=False)"
+```
+
+Custom relative paths are supported:
+
+```bash
+python process.py --raw data/raw/wine.csv --out outputs
+```
+
+## Outputs
+outputs/ contains numeric_summary.csv, quality_checks.csv, summary.json, distributions.png, correlations.png, train_rows.csv, validation_rows.csv, test_rows.csv, preprocessing.json, processed_arrays.npz and processed_tensors.pt.
+
+The PyTorch file is a dictionary of float32 feature tensors and int64 target tensors. Load with `torch.load('outputs/processed_tensors.pt', weights_only=True)`. Shapes are train 124x13, validation 27x13 and test 27x13. No classifier or test performance is included in this milestone.
+
+The script uses all records only for descriptive reporting. Model transformations are fitted exclusively on the training partition. For future cross-validation, refit these transformations independently within every training fold, rather than reusing the saved globally fitted training arrays across folds.
+
+## Files
+- Milestone_1_Report.pdf: six-page report with student ID and repository URL fields to complete.
+- report_editable.md: editable report text; charts are saved separately in outputs/.
+- process.py: runnable checks, splitting, preprocessing and artifact generation.
+- DATA_SOURCE.md: attribution, licence and source details.
+- requirements.txt: dependencies; tested PyTorch version recorded below.
+
+## GitHub submission steps
+1. Create a new repository in your GitHub account, for example inse6450-wine-classification. Choose visibility in accordance with course requirements.
+2. Upload this folder's contents, including the data and saved outputs. Do not upload the virtual environment.
+3. If private, invite the instructor and TA using their verified GitHub accounts. The handout lists Ali Ayub's email as ali.ayub@concordia.ca, but it does not specify a TA account. Obtain the correct account rather than guessing.
+4. Add the repository URL and student ID to the report, export the updated report to PDF, then submit on Moodle by October 19, 2026 at the stated 11:59 PM deadline.
+
+A repository has not been created or shared by this package. The report's project topic was selected for this draft; confirm it matches any earlier project approval.

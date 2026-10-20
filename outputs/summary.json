@@ -1,0 +1,30 @@
+{
+  "n_rows": 178,
+  "duplicates_full": 0,
+  "duplicates_features": 0,
+  "nonpositive_cells": 0,
+  "class_counts": {
+    "0": 59,
+    "1": 71,
+    "2": 48
+  },
+  "split_counts": {
+    "train": {
+      "0": 41,
+      "1": 50,
+      "2": 33
+    },
+    "validation": {
+      "0": 9,
+      "1": 10,
+      "2": 8
+    },
+    "test": {
+      "0": 9,
+      "1": 11,
+      "2": 7
+    }
+  },
+  "iqr_flagged_rows": 17,
+  "raw_sha256": "cd80158fad3d1e203d61dae42242620b02dd5f918e637b5f08381e39e7cf5204"
+}
