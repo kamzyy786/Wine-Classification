@@ -1,6 +1,6 @@
-# Wine cultivar classification: INSE 6450 Milestone 1
+# Chemical-aware Wine Transaction Anomaly Detection
 
-Prepared for Kameshwar Arora. Add your student ID and GitHub URL to the report before submission. This project is a course prototype, not a validated production authentication system. Review the work and follow your course's assistance disclosure policy.
+
 
 ## Setup and run
 Requires Python 3.11 or 3.12. From this folder:
