@@ -42,4 +42,3 @@ The script uses all records only for descriptive reporting. Model transformation
 - DATA_SOURCE.md: attribution, licence and source details.
 - requirements.txt: dependencies; tested PyTorch version recorded below.
 
-A repository has not been created or shared by this package. The report's project topic was selected for this draft; confirm it matches any earlier project approval.
