@@ -42,10 +42,4 @@ The script uses all records only for descriptive reporting. Model transformation
 - DATA_SOURCE.md: attribution, licence and source details.
 - requirements.txt: dependencies; tested PyTorch version recorded below.
 
-## GitHub submission steps
-1. Create a new repository in your GitHub account, for example inse6450-wine-classification. Choose visibility in accordance with course requirements.
-2. Upload this folder's contents, including the data and saved outputs. Do not upload the virtual environment.
-3. If private, invite the instructor and TA using their verified GitHub accounts. The handout lists Ali Ayub's email as ali.ayub@concordia.ca, but it does not specify a TA account. Obtain the correct account rather than guessing.
-4. Add the repository URL and student ID to the report, export the updated report to PDF, then submit on Moodle by October 19, 2026 at the stated 11:59 PM deadline.
-
 A repository has not been created or shared by this package. The report's project topic was selected for this draft; confirm it matches any earlier project approval.
