@@ -1,0 +1,149 @@
+{
+  "hardware": {
+    "cpu": "AMD EPYC 9V74 80-Core Processor",
+    "logical_cpus": 9,
+    "ram_gib": 9.733661651611328,
+    "torch_threads": 1,
+    "python": "3.12.14",
+    "pytorch": "2.14.1+cpu",
+    "device": "CPU; no GPU used"
+  },
+  "fresh_process_import_rss_mib": 270.54296875,
+  "final_process_rss_mib": 350.5,
+  "models": {
+    "ae_combined_b3": {
+      "latency": [
+        {
+          "batch": 1,
+          "p50_ms": 0.037886,
+          "p90_ms": 0.059292000000000004,
+          "p95_ms": 0.09822209999999996,
+          "samples_per_second": 21527.630821797935
+        },
+        {
+          "batch": 32,
+          "p50_ms": 0.0453975,
+          "p90_ms": 0.07802920000000003,
+          "p95_ms": 0.12168159999999996,
+          "samples_per_second": 567668.0846128439
+        }
+      ],
+      "process_rss_mib": 285.4921875,
+      "parameters": 220,
+      "dense_forward_flops": 384
+    },
+    "ae_transaction_only": {
+      "latency": [
+        {
+          "batch": 1,
+          "p50_ms": 0.0369595,
+          "p90_ms": 0.0441881,
+          "p95_ms": 0.06314249999999998,
+          "samples_per_second": 24018.181186722
+        },
+        {
+          "batch": 32,
+          "p50_ms": 0.043485,
+          "p90_ms": 0.06280900000000002,
+          "p95_ms": 0.08192249999999998,
+          "samples_per_second": 613931.2747680501
+        }
+      ],
+      "process_rss_mib": 285.56640625,
+      "parameters": 186,
+      "dense_forward_flops": 320
+    },
+    "mlp_weighted": {
+      "latency": [
+        {
+          "batch": 1,
+          "p50_ms": 0.019529,
+          "p90_ms": 0.020391,
+          "p95_ms": 0.02741195,
+          "samples_per_second": 45483.30744423474
+        },
+        {
+          "batch": 32,
+          "p50_ms": 0.0247265,
+          "p90_ms": 0.026089,
+          "p95_ms": 0.04128554999999993,
+          "samples_per_second": 1167379.789795758
+        }
+      ],
+      "process_rss_mib": 287.12890625,
+      "parameters": 194,
+      "dense_forward_flops": 352
+    },
+    "mlp_unweighted": {
+      "latency": [
+        {
+          "batch": 1,
+          "p50_ms": 0.019308,
+          "p90_ms": 0.01997,
+          "p95_ms": 0.023304999999999982,
+          "samples_per_second": 48562.67119555663
+        },
+        {
+          "batch": 32,
+          "p50_ms": 0.024666,
+          "p90_ms": 0.025979,
+          "p95_ms": 0.033593999999999985,
+          "samples_per_second": 1180342.5021970046
+        }
+      ],
+      "process_rss_mib": 287.12890625,
+      "parameters": 194,
+      "dense_forward_flops": 352
+    },
+    "mlp_transaction_only": {
+      "latency": [
+        {
+          "batch": 1,
+          "p50_ms": 0.019519,
+          "p90_ms": 0.020261,
+          "p95_ms": 0.0241765,
+          "samples_per_second": 47119.495700770094
+        },
+        {
+          "batch": 32,
+          "p50_ms": 0.024737,
+          "p90_ms": 0.026690000000000002,
+          "p95_ms": 0.04201304999999999,
+          "samples_per_second": 1132947.3735677644
+        }
+      ],
+      "process_rss_mib": 287.12890625,
+      "parameters": 162,
+      "dense_forward_flops": 288
+    },
+    "linear_combined": {
+      "latency": [
+        {
+          "batch": 1,
+          "p50_ms": 0.0137,
+          "p90_ms": 0.014332000000000001,
+          "p95_ms": 0.01817049999999998,
+          "samples_per_second": 63987.28035246242
+        },
+        {
+          "batch": 32,
+          "p50_ms": 0.017236,
+          "p90_ms": 0.018376000000000003,
+          "p95_ms": 0.028265999999999986,
+          "samples_per_second": 1514414.8871148045
+        }
+      ],
+      "process_rss_mib": 287.12890625,
+      "parameters": 20,
+      "dense_forward_flops": 36
+    }
+  },
+  "raw_event_pipeline": {
+    "batch": 1,
+    "p50_ms": 0.1898965,
+    "p90_ms": 0.282285,
+    "p95_ms": 0.33982809999999997,
+    "samples_per_second": 4673.440210704856
+  },
+  "method": "CPU, 100 warmups and 1000 calls. Model timings include scaling and network scoring on precomputed features; exclude history, chemistry, explanations, I/O and networking. Raw-event pipeline includes feature derivation, chemical inference, AE score and explanations; prefix restoration and file loading are outside timing. RAM is process-wide, includes runtime/data/all loaded states."
+}
