@@ -6,23 +6,23 @@ The current Milestone 2 study uses a supervised wine chemistry component followe
 
 The chemistry observations are the unchanged UCI Wine dataset from Milestone 1. All customers, purchase events, coordinates and transaction anomaly labels are synthetic. An anomaly flag requests human review; it is not proof of fraud, authenticity or safety.
 
-## Run the redesigned system
+## Run the designed system
 
 Use Python 3.12. From the repository root:
 
 ```bash
-cd milestone2_redesign
+cd milestone2
 python -m pip install -r requirements.txt
 python verify.py
 python demo.py --customer test-C0005 --event 8
 ```
 
-- [Redesigned report](milestone2_redesign/Milestone_2_Report.pdf)
-- [Executed notebook demo](milestone2_redesign/Demo.ipynb)
-- [Setup, methods and results](milestone2_redesign/README.md)
-- [Professor demonstration guide](milestone2_redesign/DEMO_GUIDE.md)
-- [Measured metrics](milestone2_redesign/results/metrics.json)
-- [Threshold trade-offs](milestone2_redesign/results/threshold_tradeoffs.csv)
+- [Redesigned report](milestone2/Milestone_2_Report.pdf)
+- [Executed notebook demo](milestone2/Demo.ipynb)
+- [Setup, methods and results](milestone2/README.md)
+- [Professor demonstration guide](milestone2/DEMO_GUIDE.md)
+- [Measured metrics](milestone2/results/metrics.json)
+- [Threshold trade-offs](milestone2/results/threshold_tradeoffs.csv)
 
 ## New study
 
@@ -46,14 +46,11 @@ The existing root `process.py`, `data/raw/wine.csv`, `outputs/` and root depende
 
 To regenerate the original preprocessing, run `python process.py` from the root after installing the root requirements. Its 17 exploratory IQR flags are chemical review flags, not verified fraud.
 
-## Earlier transaction study
-
-The existing `milestone2/` folder is the previous supervised-only transaction study, retained as an identifiable earlier version. The current report and demo are in **`milestone2_redesign/`**. Milestone 1 data and submitted work are preserved.
 
 ## Reproduce and continue
 
-From `milestone2_redesign/`, run `python experiment.py`, `python efficiency.py`, `python verify.py`, and `python build_report.py`. Results include raw-event histories, features, all model predictions, learning curves, every flagged explanation, runtime measurements and configuration.
+From `milestone2/`, run `python experiment.py`, `python efficiency.py`, `python verify.py`, and `python build_report.py`. Results include raw-event histories, features, all model predictions, learning curves, every flagged explanation, runtime measurements and configuration.
 
 The local event-replay CLI and notebook are implemented. Hosted API, durable shared state, laboratory integration, caching and review-queue services remain documented deployment designs. The detailed report distinguishes measured behaviour from these planned components.
 
-Data attribution: [original source notes](DATA_SOURCE.md) and [redesigned data notes](milestone2_redesign/DATA_SOURCE.md).
+Data attribution: [original source notes](DATA_SOURCE.md) and [redesigned data notes](milestone2/DATA_SOURCE.md).
