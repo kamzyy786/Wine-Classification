@@ -34,7 +34,7 @@ This evaluates performance on the specified simulator, not real fraud detection.
 - results/*_learning.csv/png: epoch-level training/validation losses and validation macro F1 at argmax.
 - results/*_test_predictions.csv: auditable test scores and decisions.
 - models/screening.pt: CPU checkpoint and preprocessing parameters.
-- Milestone_2_Report.pdf: generated report with student ID 40325656.
+- Milestone_2_Report.pdf: generated report 
 
 Model probability scores are uncalibrated. The demo reports grouped mean-occlusion score changes, label disagreement and standardized deviations. These are local model diagnostics, not causal or SHAP attributions. A human reviews flags.
 
