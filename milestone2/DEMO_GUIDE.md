@@ -53,4 +53,4 @@ Training regenerates data and results. Timings vary by host. The source CSV, see
 
 ## Before submission
 
-Upload the milestone2 folder as a new commit to the existing Wine-Classification repository. Keep the original Milestone 1 report and history. Share repository access with the POD, and submit the updated PDF on Moodle. This package does not perform either external action. Topic approval and marks remain the instructor's decision.
+The project code, data, models and results have been observed in the Wine-Transaction-Anomaly-Detection repository. Upload the latest documentation/report revisions, confirm POD access, and submit the updated PDF on Moodle. Preserve the original Milestone 1 work and repository history. Instructor/POD access has not been independently verified.

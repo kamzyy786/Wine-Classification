@@ -26,3 +26,20 @@ Each sample creates 20 purchases. A latent scenario is drawn: normal 80%, label 
 
 The original seed-42 split (124/27/27 wine samples) is preserved. Purchase records are generated separately inside those partitions. Training uses out-of-fold chemical probabilities; held-out fold labels do not control the fold model's stopping. No true cultivar, sample ID, scenario, transaction ID, or anomaly label is an input to the risk classifier. True cultivar is used only for chemical training and synthetic-data construction. At inference the declared cultivar comes from the purchase record, and chemical measurements must come from a linked laboratory sample.
 
+This evaluates performance on the specified simulator, not real fraud detection. Repeated transactions do not create additional independent chemical samples. Sample selection and simulation assumptions can dominate the results. No safety, authenticity, adulteration, or fraud claim follows from a disagreement.
+
+## Outputs
+
+- results/metrics.json: measured metrics, confusion matrices, scenario flag rates, environment, timing and memory.
+- results/*_learning.csv/png: epoch-level training/validation losses and validation macro F1 at argmax.
+- results/*_test_predictions.csv: auditable test scores and decisions.
+- models/screening.pt: CPU checkpoint and preprocessing parameters.
+- Milestone_2_Report.pdf: generated report with student ID 40325656.
+
+Model probability scores are uncalibrated. The demo reports grouped mean-occlusion score changes, label disagreement and standardized deviations. These are local model diagnostics, not causal or SHAP attributions. A human reviews flags.
+
+## Repository integration
+
+Add this folder as `milestone2/` in the existing Wine-Classification repository. Keep all original Milestone 1 files and history. Use a descriptive new commit such as `Add chemical-aware synthetic transaction screening extension`. Share repository access with the POD as required by the assignment. Code, data, models and results have been observed in the project repository. Instructor/POD access has not been independently verified.
+
+Before submission: upload the latest documentation/report revisions, confirm instructor/POD access, and follow the course requirements for acknowledging assistance.

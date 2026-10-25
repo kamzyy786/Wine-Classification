@@ -4,8 +4,8 @@
   "student": "Kameshwar Arora",
   "student_id": "40325656",
   "milestone": "2",
-  "package_revision": "2.2 revised problem framing and GitHub update",
-  "status": "Working local saved-model prototype; deployment design; GitHub upload/POD sharing pending",
+  "package_revision": "2.3 review presentation polish",
+  "status": "Code, data, checkpoint and results verified as uploaded; local prototype implemented; POD access unverified; presentation update prepared",
   "data": "Unchanged UCI Wine chemistry plus explicitly synthetic transactions",
   "selected_risk_model": "combined_mlp",
   "checkpoint_sha256": "56e1aabba9bbcd8a3aee4fccfecdde0335f665c244120f2adb70aea21c4838bd",
@@ -14,5 +14,6 @@
   "results": "results/metrics.json",
   "verification": "results/verification.txt",
   "external_validation": "Not performed",
-  "topic_approval": "Not established by this package"
+  "topic_approval": "Not established by this package",
+  "repository": "https://github.com/kamzyy786/Wine-Transaction-Anomaly-Detection"
 }
