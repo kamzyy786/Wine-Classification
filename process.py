@@ -1,4 +1,8 @@
-"""Reproduce Milestone 1 data checks and leakage-safe feature processing."""
+"""Prepare chemical data for cultivar profiling and downstream consistency checks.
+
+Reproduce Milestone 1 data checks, fixed sample splits and training-only
+preprocessing. Transaction screening is implemented separately in milestone2.
+"""
 from pathlib import Path
 import argparse, json, hashlib
 import numpy as np

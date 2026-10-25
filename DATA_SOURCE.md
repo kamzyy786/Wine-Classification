@@ -9,3 +9,5 @@ https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_wine.htm
 Packaging changes: named CSV columns; original cultivar IDs 1,2,3 encoded as 0,1,2.
 The CSV has no added model features. Units are not inferred where metadata is incomplete.
 Retrieved October 18, 2026. The SHA-256 of the exact CSV is in outputs/summary.json.
+
+The original CSV contains chemical measurements and cultivar reference labels, not observed purchase transactions or verified fraud labels. Synthetic purchase records and their generated anomaly labels are documented separately in milestone2/README.md and produced by milestone2/experiment.py.
