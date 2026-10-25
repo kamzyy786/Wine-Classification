@@ -1,5 +1,0 @@
-PASS: Original wine checksum/splits preserved; customer and linked wine partitions disjoint; 30,000 unique raw events.
-PASS: Future-event perturbation leaves prior features unchanged; anomaly/scenario edits leave all model features unchanged; unlabeled AE training includes contamination.
-PASS: Training-only scaler; every model checkpoint reproduces test scores/decisions; metrics recompute; AE thresholds equal frozen validation p95.
-PASS: Stateful raw-event replay matches saved test scores; first five events warm up; duplicate/out-of-order timestamps rejected.
-PASS: Every flagged test transaction has three nonnegative reconstruction-error explanation factors.
