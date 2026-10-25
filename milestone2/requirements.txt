@@ -1,7 +1,0 @@
-numpy
-pandas
-scikit-learn==1.8.0
-torch==2.14.1
-matplotlib
-reportlab
-psutil
