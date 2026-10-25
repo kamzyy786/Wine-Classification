@@ -1,8 +1,8 @@
-# History-based Wine Transaction Anomaly Detection
+# Wine Transaction Anomaly Detection
 
-INSE 6450 | Kameshwar Arora | 40325656 | Redesign 3.0
+INSE 6450 | Kameshwar Arora | 40325656 |
 
-This is the history-based redesign specified in Recommended Milestone 2 Redesign. It retains the supervised chemistry component and uses a PyTorch autoencoder as the primary transaction anomaly detector. All transaction events and scenario labels are synthetic. Chemical measurements are the unchanged UCI Wine observations from Milestone 1.
+It retains the supervised chemistry component and uses a PyTorch autoencoder as the primary transaction anomaly detector. All transaction events and scenario labels are synthetic. Chemical measurements are the unchanged UCI Wine observations from Milestone 1.
 
 ## Quick start
 
