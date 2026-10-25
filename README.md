@@ -1,6 +1,9 @@
 # Chemical-aware Wine Transaction Anomaly Detection
 
 
+This project combines a wine cultivar model with synthetic purchase records to screen for anomalous transactions. The original Milestone 1 remains a chemical classification and preprocessing study. This extension reuses that foundation for a laboratory-to-declared-label consistency check, then adds transaction screening. The transaction classifier combines that consistency signal with purchase behaviour.
+
+
 
 ## Setup and run
 Requires Python 3.11 or 3.12. From this folder:
