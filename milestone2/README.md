@@ -38,8 +38,3 @@ This evaluates performance on the specified simulator, not real fraud detection.
 
 Model probability scores are uncalibrated. The demo reports grouped mean-occlusion score changes, label disagreement and standardized deviations. These are local model diagnostics, not causal or SHAP attributions. A human reviews flags.
 
-## Repository integration
-
-Add this folder as `milestone2/` in the existing Wine-Classification repository. Keep all original Milestone 1 files and history. Use a descriptive new commit such as `Add chemical-aware synthetic transaction screening extension`. Share repository access with the POD as required by the assignment. No GitHub upload or sharing is performed by this package.
-
-Before submission: upload the code, share the repository with the POD, and follow the course requirements for acknowledging assistance.
