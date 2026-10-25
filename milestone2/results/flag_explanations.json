@@ -1,0 +1,4658 @@
+[
+  {
+    "transaction_id": "test-C0000-T20",
+    "scenario": "combined",
+    "actual": 1,
+    "score": 8.466936111450195,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 29.476778030395508,
+        "share_of_total_error": 0.38682201504707336
+      },
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 25.529199600219727,
+        "share_of_total_error": 0.33501818776130676
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 16.175355911254883,
+        "share_of_total_error": 0.21226824820041656
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0000-T21",
+    "scenario": "velocity",
+    "actual": 1,
+    "score": 4.504141807556152,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 38.33381652832031,
+        "share_of_total_error": 0.9456436038017273
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 1.2640386819839478,
+        "share_of_total_error": 0.03118213079869747
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.34587109088897705,
+        "share_of_total_error": 0.008532173931598663
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0002-T05",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 5.057074546813965,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 43.84907913208008,
+        "share_of_total_error": 0.9634265303611755
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 1.2444732189178467,
+        "share_of_total_error": 0.027342842891812325
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 0.178143709897995,
+        "share_of_total_error": 0.003914070315659046
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0003-T05",
+    "scenario": "amount",
+    "actual": 1,
+    "score": 8.005311965942383,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 61.24172592163086,
+        "share_of_total_error": 0.8500151634216309
+      },
+      {
+        "feature": "quantity_deviation",
+        "squared_standardized_error": 8.967549324035645,
+        "share_of_total_error": 0.1244666576385498
+      },
+      {
+        "feature": "amount_deviation",
+        "squared_standardized_error": 1.5660431385040283,
+        "share_of_total_error": 0.02173616737127304
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0003-T18",
+    "scenario": "amount",
+    "actual": 1,
+    "score": 6.520853042602539,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 54.087677001953125,
+        "share_of_total_error": 0.9216189980506897
+      },
+      {
+        "feature": "quantity_deviation",
+        "squared_standardized_error": 4.131995677947998,
+        "share_of_total_error": 0.07040653377771378
+      },
+      {
+        "feature": "amount_deviation",
+        "squared_standardized_error": 0.18654309213161469,
+        "share_of_total_error": 0.0031785734463483095
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0004-T10",
+    "scenario": "amount",
+    "actual": 1,
+    "score": 4.839623928070068,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 36.6967658996582,
+        "share_of_total_error": 0.8425073027610779
+      },
+      {
+        "feature": "quantity_deviation",
+        "squared_standardized_error": 5.220127105712891,
+        "share_of_total_error": 0.11984694749116898
+      },
+      {
+        "feature": "amount_deviation",
+        "squared_standardized_error": 0.8402464389801025,
+        "share_of_total_error": 0.019290903583168983
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0005-T08",
+    "scenario": "merchant",
+    "actual": 1,
+    "score": 5.181547164916992,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 42.015933990478516,
+        "share_of_total_error": 0.9009735584259033
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 3.63655424118042,
+        "share_of_total_error": 0.07798086851835251
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 0.495214581489563,
+        "share_of_total_error": 0.010619191452860832
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0007-T22",
+    "scenario": "merchant",
+    "actual": 1,
+    "score": 4.668245315551758,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 41.14433288574219,
+        "share_of_total_error": 0.9792957305908203
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.2804192304611206,
+        "share_of_total_error": 0.006674390751868486
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 0.1843932867050171,
+        "share_of_total_error": 0.004388832021504641
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0007-T26",
+    "scenario": "amount",
+    "actual": 1,
+    "score": 5.468394756317139,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 40.26647186279297,
+        "share_of_total_error": 0.8181656002998352
+      },
+      {
+        "feature": "quantity_deviation",
+        "squared_standardized_error": 6.513638973236084,
+        "share_of_total_error": 0.1323491930961609
+      },
+      {
+        "feature": "amount_deviation",
+        "squared_standardized_error": 1.198417067527771,
+        "share_of_total_error": 0.024350373074412346
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0008-T24",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.475912570953369,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 37.445960998535156,
+        "share_of_total_error": 0.929567277431488
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 1.275354266166687,
+        "share_of_total_error": 0.03165969252586365
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 1.0773788690567017,
+        "share_of_total_error": 0.026745103299617767
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0010-T06",
+    "scenario": "location",
+    "actual": 1,
+    "score": 5.283775329589844,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 45.69411087036133,
+        "share_of_total_error": 0.9608893990516663
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 1.2614468336105347,
+        "share_of_total_error": 0.02652663365006447
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.2794785499572754,
+        "share_of_total_error": 0.005877080839127302
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0010-T07",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 5.200132846832275,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 44.74415969848633,
+        "share_of_total_error": 0.9560473561286926
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 1.035624384880066,
+        "share_of_total_error": 0.022128161042928696
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.5777978897094727,
+        "share_of_total_error": 0.012345792725682259
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0010-T20",
+    "scenario": "amount",
+    "actual": 1,
+    "score": 5.96382474899292,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 45.725154876708984,
+        "share_of_total_error": 0.8518983721733093
+      },
+      {
+        "feature": "quantity_deviation",
+        "squared_standardized_error": 6.234051704406738,
+        "share_of_total_error": 0.11614567041397095
+      },
+      {
+        "feature": "amount_deviation",
+        "squared_standardized_error": 0.9412901401519775,
+        "share_of_total_error": 0.017537033185362816
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0011-T05",
+    "scenario": "combined",
+    "actual": 1,
+    "score": 15.338619232177734,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 55.717002868652344,
+        "share_of_total_error": 0.40360724925994873
+      },
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 36.94224166870117,
+        "share_of_total_error": 0.26760515570640564
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 32.77827835083008,
+        "share_of_total_error": 0.23744189739227295
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0011-T16",
+    "scenario": "combined",
+    "actual": 1,
+    "score": 10.894314765930176,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 30.277359008789062,
+        "share_of_total_error": 0.30879873037338257
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 30.112417221069336,
+        "share_of_total_error": 0.3071165084838867
+      },
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 26.732471466064453,
+        "share_of_total_error": 0.27264443039894104
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0013-T11",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.95211124420166,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 42.907657623291016,
+        "share_of_total_error": 0.9627242684364319
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.9329342842102051,
+        "share_of_total_error": 0.020932357758283615
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 0.4417198896408081,
+        "share_of_total_error": 0.00991092249751091
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0014-T07",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.701593399047852,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 41.028236389160156,
+        "share_of_total_error": 0.9696059823036194
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.5144118070602417,
+        "share_of_total_error": 0.012156914919614792
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 0.22995266318321228,
+        "share_of_total_error": 0.005434391088783741
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0015-T09",
+    "scenario": "merchant",
+    "actual": 1,
+    "score": 5.118428707122803,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 40.70797348022461,
+        "share_of_total_error": 0.8836908340454102
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 1.863283634185791,
+        "share_of_total_error": 0.04044825956225395
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 1.7905082702636719,
+        "share_of_total_error": 0.03886844962835312
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0016-T08",
+    "scenario": "location",
+    "actual": 1,
+    "score": 5.321363925933838,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 43.080928802490234,
+        "share_of_total_error": 0.8995382189750671
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 3.745048761367798,
+        "share_of_total_error": 0.07819734513759613
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.5086451172828674,
+        "share_of_total_error": 0.010620608925819397
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0016-T09",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 5.185308456420898,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 42.49937438964844,
+        "share_of_total_error": 0.910679280757904
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 2.993163585662842,
+        "share_of_total_error": 0.06413769721984863
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.8185240030288696,
+        "share_of_total_error": 0.017539383843541145
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0017-T08",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.547567367553711,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 39.803829193115234,
+        "share_of_total_error": 0.9725303053855896
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 0.47065094113349915,
+        "share_of_total_error": 0.011499454267323017
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.32222139835357666,
+        "share_of_total_error": 0.007872862741351128
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0018-T05",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.481022834777832,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 36.49913024902344,
+        "share_of_total_error": 0.9050297737121582
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 1.8223369121551514,
+        "share_of_total_error": 0.04518653079867363
+      },
+      {
+        "feature": "cultivar_mismatch",
+        "squared_standardized_error": 0.8256931900978088,
+        "share_of_total_error": 0.02047382853925228
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0019-T05",
+    "scenario": "merchant",
+    "actual": 1,
+    "score": 4.891635417938232,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 42.25667190551758,
+        "share_of_total_error": 0.9598397612571716
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.6037272810935974,
+        "share_of_total_error": 0.013713371939957142
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.5327857136726379,
+        "share_of_total_error": 0.012101968750357628
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0019-T20",
+    "scenario": "amount",
+    "actual": 1,
+    "score": 8.57745361328125,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 63.78232955932617,
+        "share_of_total_error": 0.8262271881103516
+      },
+      {
+        "feature": "quantity_deviation",
+        "squared_standardized_error": 10.745783805847168,
+        "share_of_total_error": 0.13919934630393982
+      },
+      {
+        "feature": "amount_deviation",
+        "squared_standardized_error": 1.6909270286560059,
+        "share_of_total_error": 0.021904027089476585
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0019-T25",
+    "scenario": "merchant",
+    "actual": 1,
+    "score": 4.596090316772461,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 39.1190185546875,
+        "share_of_total_error": 0.9457077383995056
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 1.168459415435791,
+        "share_of_total_error": 0.028247669339179993
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.6854465007781982,
+        "share_of_total_error": 0.016570765525102615
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0020-T13",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.5003743171691895,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 39.50856018066406,
+        "share_of_total_error": 0.9754388928413391
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.34199801087379456,
+        "share_of_total_error": 0.008443692699074745
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 0.27711617946624756,
+        "share_of_total_error": 0.006841805763542652
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0021-T24",
+    "scenario": "combined",
+    "actual": 1,
+    "score": 9.994457244873047,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 30.21769905090332,
+        "share_of_total_error": 0.335938423871994
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 27.30678367614746,
+        "share_of_total_error": 0.3035769760608673
+      },
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 25.82539939880371,
+        "share_of_total_error": 0.28710803389549255
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0023-T05",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 5.38181734085083,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 44.16018295288086,
+        "share_of_total_error": 0.9117156863212585
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 2.318372964859009,
+        "share_of_total_error": 0.047864317893981934
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 0.8655924797058105,
+        "share_of_total_error": 0.017870720475912094
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0026-T05",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 5.0179972648620605,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 42.26865005493164,
+        "share_of_total_error": 0.9359344840049744
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 1.3712365627288818,
+        "share_of_total_error": 0.030362633988261223
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 1.2888861894607544,
+        "share_of_total_error": 0.02853919006884098
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0027-T12",
+    "scenario": "merchant",
+    "actual": 1,
+    "score": 8.845786094665527,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 39.89020538330078,
+        "share_of_total_error": 0.5010571479797363
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 35.926395416259766,
+        "share_of_total_error": 0.45126813650131226
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 1.186546802520752,
+        "share_of_total_error": 0.014904104173183441
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0027-T16",
+    "scenario": "location",
+    "actual": 1,
+    "score": 5.484391212463379,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 46.844478607177734,
+        "share_of_total_error": 0.9490464329719543
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 1.2693796157836914,
+        "share_of_total_error": 0.02571701444685459
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.6000495553016663,
+        "share_of_total_error": 0.0121567128226161
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0027-T17",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 5.225600719451904,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 44.74494171142578,
+        "share_of_total_error": 0.9514045119285583
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 1.4208462238311768,
+        "share_of_total_error": 0.030211225152015686
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.40715476870536804,
+        "share_of_total_error": 0.00865726638585329
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0028-T06",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.932921886444092,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 42.41521453857422,
+        "share_of_total_error": 0.9553772211074829
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 1.1498621702194214,
+        "share_of_total_error": 0.02589995414018631
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.2951655387878418,
+        "share_of_total_error": 0.0066484264098107815
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0029-T06",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.732799053192139,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 41.110328674316406,
+        "share_of_total_error": 0.9651401042938232
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.7955310940742493,
+        "share_of_total_error": 0.018676547333598137
+      },
+      {
+        "feature": "quantity_deviation",
+        "squared_standardized_error": 0.174479141831398,
+        "share_of_total_error": 0.0040962169878184795
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0030-T06",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.70609712600708,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 41.789100646972656,
+        "share_of_total_error": 0.986642062664032
+      },
+      {
+        "feature": "quantity_deviation",
+        "squared_standardized_error": 0.1656576693058014,
+        "share_of_total_error": 0.003911183215677738
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 0.14187172055244446,
+        "share_of_total_error": 0.003349596168845892
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0031-T09",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.918427467346191,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 41.65912628173828,
+        "share_of_total_error": 0.941112220287323
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 1.951063632965088,
+        "share_of_total_error": 0.04407605156302452
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.3489648401737213,
+        "share_of_total_error": 0.007883388549089432
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0031-T20",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.809519290924072,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 42.24551773071289,
+        "share_of_total_error": 0.9759698510169983
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.5641945600509644,
+        "share_of_total_error": 0.013034208677709103
+      },
+      {
+        "feature": "cultivar_mismatch",
+        "squared_standardized_error": 0.1364859789609909,
+        "share_of_total_error": 0.0031531439162790775
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0032-T17",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.871952056884766,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 41.309505462646484,
+        "share_of_total_error": 0.9421162009239197
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 1.542399287223816,
+        "share_of_total_error": 0.035176392644643784
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.5943467617034912,
+        "share_of_total_error": 0.013554839417338371
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0035-T19",
+    "scenario": "combined",
+    "actual": 1,
+    "score": 11.094696044921875,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 37.47564697265625,
+        "share_of_total_error": 0.37531089782714844
+      },
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 30.29077911376953,
+        "share_of_total_error": 0.3033559322357178
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 26.52117919921875,
+        "share_of_total_error": 0.265604168176651
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0036-T08",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.907127857208252,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 42.36735916137695,
+        "share_of_total_error": 0.9593155980110168
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.8960558772087097,
+        "share_of_total_error": 0.020289214327931404
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.26569467782974243,
+        "share_of_total_error": 0.006016071420162916
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0036-T24",
+    "scenario": "location",
+    "actual": 1,
+    "score": 4.77818489074707,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 41.21844482421875,
+        "share_of_total_error": 0.9584866762161255
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.6161541938781738,
+        "share_of_total_error": 0.0143279442563653
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.6082266569137573,
+        "share_of_total_error": 0.014143599197268486
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0036-T25",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 5.905906677246094,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 48.20954895019531,
+        "share_of_total_error": 0.9069932103157043
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 3.3389158248901367,
+        "share_of_total_error": 0.06281688809394836
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.8935523629188538,
+        "share_of_total_error": 0.01681090146303177
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0038-T13",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.510988235473633,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 36.303672790527344,
+        "share_of_total_error": 0.8942035436630249
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 1.8545880317687988,
+        "share_of_total_error": 0.045680753886699677
+      },
+      {
+        "feature": "cultivar_mismatch",
+        "squared_standardized_error": 0.8013886213302612,
+        "share_of_total_error": 0.019739175215363503
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0038-T18",
+    "scenario": "merchant",
+    "actual": 1,
+    "score": 4.99040412902832,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 42.04601287841797,
+        "share_of_total_error": 0.936152458190918
+      },
+      {
+        "feature": "cultivar_mismatch",
+        "squared_standardized_error": 1.425621747970581,
+        "share_of_total_error": 0.03174139931797981
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.7020862698554993,
+        "share_of_total_error": 0.015631916001439095
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0039-T05",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.696064472198486,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 41.40646743774414,
+        "share_of_total_error": 0.9796966314315796
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.23942841589450836,
+        "share_of_total_error": 0.005664989817887545
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.17975813150405884,
+        "share_of_total_error": 0.004253162536770105
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0039-T12",
+    "scenario": "amount",
+    "actual": 1,
+    "score": 4.5147705078125,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 33.776214599609375,
+        "share_of_total_error": 0.8312521576881409
+      },
+      {
+        "feature": "quantity_deviation",
+        "squared_standardized_error": 5.430613994598389,
+        "share_of_total_error": 0.133650541305542
+      },
+      {
+        "feature": "amount_deviation",
+        "squared_standardized_error": 1.0944706201553345,
+        "share_of_total_error": 0.026935555040836334
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0039-T29",
+    "scenario": "merchant",
+    "actual": 1,
+    "score": 4.719155311584473,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 41.40510559082031,
+        "share_of_total_error": 0.9748709201812744
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.4034004807472229,
+        "share_of_total_error": 0.009497945196926594
+      },
+      {
+        "feature": "quantity_deviation",
+        "squared_standardized_error": 0.24765846133232117,
+        "share_of_total_error": 0.005831045098602772
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0041-T23",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.724100112915039,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 41.47967529296875,
+        "share_of_total_error": 0.9756043553352356
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.3929554224014282,
+        "share_of_total_error": 0.00924233440309763
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 0.20172123610973358,
+        "share_of_total_error": 0.004744495265185833
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0042-T05",
+    "scenario": "merchant",
+    "actual": 1,
+    "score": 4.688595771789551,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 40.5771484375,
+        "share_of_total_error": 0.9616039395332336
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.9541724324226379,
+        "share_of_total_error": 0.022612135857343674
+      },
+      {
+        "feature": "quantity_deviation",
+        "squared_standardized_error": 0.184921532869339,
+        "share_of_total_error": 0.0043823011219501495
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0042-T09",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.474372863769531,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 36.6126708984375,
+        "share_of_total_error": 0.9091943502426147
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 1.8626288175582886,
+        "share_of_total_error": 0.046254247426986694
+      },
+      {
+        "feature": "cultivar_mismatch",
+        "squared_standardized_error": 0.7981051206588745,
+        "share_of_total_error": 0.019819168373942375
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0043-T07",
+    "scenario": "location",
+    "actual": 1,
+    "score": 5.9183220863342285,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 44.503780364990234,
+        "share_of_total_error": 0.835517942905426
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 7.079586505889893,
+        "share_of_total_error": 0.1329127848148346
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 1.0627135038375854,
+        "share_of_total_error": 0.019951477646827698
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0043-T08",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 6.098480224609375,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 45.22384262084961,
+        "share_of_total_error": 0.8239546418190002
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 8.467902183532715,
+        "share_of_total_error": 0.15428072214126587
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.678281307220459,
+        "share_of_total_error": 0.012357928790152073
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0044-T05",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.492197036743164,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 38.8663444519043,
+        "share_of_total_error": 0.9613298177719116
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 0.8519359827041626,
+        "share_of_total_error": 0.02107199653983116
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.27600347995758057,
+        "share_of_total_error": 0.006826738361269236
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0046-T08",
+    "scenario": "location",
+    "actual": 1,
+    "score": 4.460666179656982,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 38.8748893737793,
+        "share_of_total_error": 0.9683380126953125
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.7254583835601807,
+        "share_of_total_error": 0.018070505931973457
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.19786399602890015,
+        "share_of_total_error": 0.004928611218929291
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0046-T09",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.682265758514404,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 40.75750732421875,
+        "share_of_total_error": 0.9671839475631714
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.8853105902671814,
+        "share_of_total_error": 0.021008601412177086
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 0.21471117436885834,
+        "share_of_total_error": 0.00509514007717371
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0047-T08",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 5.060810089111328,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 43.267513275146484,
+        "share_of_total_error": 0.9499469995498657
+      },
+      {
+        "feature": "amount_deviation",
+        "squared_standardized_error": 0.7320330739021301,
+        "share_of_total_error": 0.01607193425297737
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.6879529356956482,
+        "share_of_total_error": 0.015104145742952824
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0048-T06",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.515981674194336,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 39.8602409362793,
+        "share_of_total_error": 0.9807203412055969
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.21457883715629578,
+        "share_of_total_error": 0.005279492121189833
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 0.18317966163158417,
+        "share_of_total_error": 0.004506947472691536
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0051-T09",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.946167469024658,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 42.28401565551758,
+        "share_of_total_error": 0.9498715996742249
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 1.839398980140686,
+        "share_of_total_error": 0.04132040962576866
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 0.16205912828445435,
+        "share_of_total_error": 0.0036405096761882305
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0051-T11",
+    "scenario": "combined",
+    "actual": 1,
+    "score": 7.801690101623535,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 24.331233978271484,
+        "share_of_total_error": 0.3465237021446228
+      },
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 21.561325073242188,
+        "share_of_total_error": 0.3070748448371887
+      },
+      {
+        "feature": "quantity_deviation",
+        "squared_standardized_error": 10.341745376586914,
+        "share_of_total_error": 0.14728640019893646
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0052-T14",
+    "scenario": "amount",
+    "actual": 1,
+    "score": 5.856378555297852,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 45.161865234375,
+        "share_of_total_error": 0.8568409085273743
+      },
+      {
+        "feature": "quantity_deviation",
+        "squared_standardized_error": 6.287193775177002,
+        "share_of_total_error": 0.11928482353687286
+      },
+      {
+        "feature": "amount_deviation",
+        "squared_standardized_error": 0.993859589099884,
+        "share_of_total_error": 0.018856164067983627
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0053-T07",
+    "scenario": "location",
+    "actual": 1,
+    "score": 5.299526691436768,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 45.01576232910156,
+        "share_of_total_error": 0.9438110589981079
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 1.677735447883606,
+        "share_of_total_error": 0.03517579659819603
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.41236111521720886,
+        "share_of_total_error": 0.008645660243928432
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0053-T08",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.722764015197754,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 40.33270263671875,
+        "share_of_total_error": 0.9488959312438965
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.9949415922164917,
+        "share_of_total_error": 0.0234077051281929
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.7683789134025574,
+        "share_of_total_error": 0.01807742938399315
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0053-T11",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.551208019256592,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 39.940185546875,
+        "share_of_total_error": 0.9750815033912659
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.3281958997249603,
+        "share_of_total_error": 0.008012425154447556
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.22152164578437805,
+        "share_of_total_error": 0.005408128723502159
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0053-T23",
+    "scenario": "amount",
+    "actual": 1,
+    "score": 6.930579662322998,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 54.18704605102539,
+        "share_of_total_error": 0.8687271475791931
+      },
+      {
+        "feature": "quantity_deviation",
+        "squared_standardized_error": 6.254478454589844,
+        "share_of_total_error": 0.10027185082435608
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 0.9780665636062622,
+        "share_of_total_error": 0.01568037085235119
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0054-T05",
+    "scenario": "combined",
+    "actual": 1,
+    "score": 18.1101131439209,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 89.35810852050781,
+        "share_of_total_error": 0.548239529132843
+      },
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 30.339197158813477,
+        "share_of_total_error": 0.18614032864570618
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 30.036775588989258,
+        "share_of_total_error": 0.18428488075733185
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0054-T06",
+    "scenario": "velocity",
+    "actual": 1,
+    "score": 4.708966255187988,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 35.95628356933594,
+        "share_of_total_error": 0.8484118580818176
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 5.175632953643799,
+        "share_of_total_error": 0.12212241441011429
+      },
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 0.34269580245018005,
+        "share_of_total_error": 0.008086130023002625
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0054-T07",
+    "scenario": "velocity",
+    "actual": 1,
+    "score": 4.650403022766113,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 38.10321807861328,
+        "share_of_total_error": 0.9103922843933105
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 1.4172769784927368,
+        "share_of_total_error": 0.033862706273794174
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 1.3345344066619873,
+        "share_of_total_error": 0.03188575431704521
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0054-T27",
+    "scenario": "location",
+    "actual": 1,
+    "score": 5.487668991088867,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 42.93473434448242,
+        "share_of_total_error": 0.869317352771759
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 4.919754505157471,
+        "share_of_total_error": 0.09961231052875519
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 1.153588891029358,
+        "share_of_total_error": 0.023357192054390907
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0056-T05",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 5.043212890625,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 43.88835144042969,
+        "share_of_total_error": 0.9669398665428162
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.6660875082015991,
+        "share_of_total_error": 0.014675113372504711
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.35646530985832214,
+        "share_of_total_error": 0.007853575982153416
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0059-T05",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.929716110229492,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 43.716224670410156,
+        "share_of_total_error": 0.9853220582008362
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 0.17838077247142792,
+        "share_of_total_error": 0.004020532593131065
+      },
+      {
+        "feature": "quantity_deviation",
+        "squared_standardized_error": 0.1562025547027588,
+        "share_of_total_error": 0.00352065684273839
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0060-T06",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.513830184936523,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 38.997528076171875,
+        "share_of_total_error": 0.9599516987800598
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 0.9059306979179382,
+        "share_of_total_error": 0.022300124168395996
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.2599360942840576,
+        "share_of_total_error": 0.006398510653525591
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0060-T25",
+    "scenario": "merchant",
+    "actual": 1,
+    "score": 4.973156929016113,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 42.33904266357422,
+        "share_of_total_error": 0.9459460377693176
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 0.8928273916244507,
+        "share_of_total_error": 0.019947700202465057
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.6041988134384155,
+        "share_of_total_error": 0.013499111868441105
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0062-T11",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.915303707122803,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 43.03006362915039,
+        "share_of_total_error": 0.9727004170417786
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.4024658799171448,
+        "share_of_total_error": 0.009097795933485031
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.4021120071411133,
+        "share_of_total_error": 0.009089795872569084
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0063-T05",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 5.0892486572265625,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 43.59821319580078,
+        "share_of_total_error": 0.9518587589263916
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 1.4962424039840698,
+        "share_of_total_error": 0.03266673907637596
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.34222978353500366,
+        "share_of_total_error": 0.007471737917512655
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0064-T06",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.5624518394470215,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 40.150394439697266,
+        "share_of_total_error": 0.9777977466583252
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.3303188681602478,
+        "share_of_total_error": 0.008044380694627762
+      },
+      {
+        "feature": "quantity_deviation",
+        "squared_standardized_error": 0.1703273355960846,
+        "share_of_total_error": 0.0041480460204184055
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0064-T12",
+    "scenario": "merchant",
+    "actual": 1,
+    "score": 4.798661231994629,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 39.65728759765625,
+        "share_of_total_error": 0.9182489514350891
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 2.525918483734131,
+        "share_of_total_error": 0.05848665535449982
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.4965757131576538,
+        "share_of_total_error": 0.01149801630526781
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0065-T10",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.913224220275879,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 41.30497360229492,
+        "share_of_total_error": 0.9340996742248535
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 1.5613981485366821,
+        "share_of_total_error": 0.03531055524945259
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.5534090995788574,
+        "share_of_total_error": 0.012515181675553322
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0065-T11",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.77996301651001,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 41.90375900268555,
+        "share_of_total_error": 0.9740604758262634
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.6710540652275085,
+        "share_of_total_error": 0.015598773024976254
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 0.2055986225605011,
+        "share_of_total_error": 0.004779177252203226
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0066-T08",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 5.15882682800293,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 41.64472961425781,
+        "share_of_total_error": 0.8969465494155884
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 3.2346420288085938,
+        "share_of_total_error": 0.06966790556907654
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.5184141993522644,
+        "share_of_total_error": 0.011165634728968143
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0066-T17",
+    "scenario": "merchant",
+    "actual": 1,
+    "score": 5.004156112670898,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 42.07503890991211,
+        "share_of_total_error": 0.9342242479324341
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 1.9319396018981934,
+        "share_of_total_error": 0.0428963340818882
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 0.3347325623035431,
+        "share_of_total_error": 0.007432322949171066
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0070-T06",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.837451934814453,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 41.40927505493164,
+        "share_of_total_error": 0.9511268734931946
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 1.5430433750152588,
+        "share_of_total_error": 0.035442061722278595
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.3196554481983185,
+        "share_of_total_error": 0.007342144846916199
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0071-T06",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.661997318267822,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 39.72288131713867,
+        "share_of_total_error": 0.9467301368713379
+      },
+      {
+        "feature": "cultivar_mismatch",
+        "squared_standardized_error": 1.4544121026992798,
+        "share_of_total_error": 0.03466354310512543
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 0.4150647819042206,
+        "share_of_total_error": 0.00989239290356636
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0071-T17",
+    "scenario": "merchant",
+    "actual": 1,
+    "score": 4.949023723602295,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 43.140201568603516,
+        "share_of_total_error": 0.9685457348823547
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.5878574252128601,
+        "share_of_total_error": 0.01319805532693863
+      },
+      {
+        "feature": "quantity_deviation",
+        "squared_standardized_error": 0.2791634202003479,
+        "share_of_total_error": 0.006267530377954245
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0071-T22",
+    "scenario": "merchant",
+    "actual": 1,
+    "score": 5.202686786651611,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 36.948524475097656,
+        "share_of_total_error": 0.7890906929969788
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 4.642127990722656,
+        "share_of_total_error": 0.09913954883813858
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 2.8440122604370117,
+        "share_of_total_error": 0.060738109052181244
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0072-T05",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.616133213043213,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 40.72951126098633,
+        "share_of_total_error": 0.9803662300109863
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.20883463323116302,
+        "share_of_total_error": 0.005026685073971748
+      },
+      {
+        "feature": "quantity_deviation",
+        "squared_standardized_error": 0.17893876135349274,
+        "share_of_total_error": 0.004307086113840342
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0074-T18",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.974614143371582,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 43.456581115722656,
+        "share_of_total_error": 0.9706298112869263
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.7998095750808716,
+        "share_of_total_error": 0.017864244058728218
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 0.21786431968212128,
+        "share_of_total_error": 0.004866135306656361
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0074-T19",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 5.091350078582764,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 43.96664047241211,
+        "share_of_total_error": 0.9595062732696533
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.7039193511009216,
+        "share_of_total_error": 0.015361987985670567
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.32464203238487244,
+        "share_of_total_error": 0.007084827404469252
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0075-T08",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 5.166049003601074,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 44.037593841552734,
+        "share_of_total_error": 0.9471582174301147
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 1.391337513923645,
+        "share_of_total_error": 0.02992481365799904
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.5365794897079468,
+        "share_of_total_error": 0.011540723033249378
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0075-T29",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.759920597076416,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 40.34846878051758,
+        "share_of_total_error": 0.9418566823005676
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 1.129701852798462,
+        "share_of_total_error": 0.02637069672346115
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.5202600955963135,
+        "share_of_total_error": 0.012144462205469608
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0076-T06",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 5.398386478424072,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 44.04494094848633,
+        "share_of_total_error": 0.9065452814102173
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 3.453805923461914,
+        "share_of_total_error": 0.07108719646930695
+      },
+      {
+        "feature": "quantity_deviation",
+        "squared_standardized_error": 0.2913613021373749,
+        "share_of_total_error": 0.005996879655867815
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0076-T18",
+    "scenario": "location",
+    "actual": 1,
+    "score": 5.168024063110352,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 44.88737869262695,
+        "share_of_total_error": 0.9650663733482361
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 1.179419755935669,
+        "share_of_total_error": 0.02535720355808735
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 0.21709850430488586,
+        "share_of_total_error": 0.004667558707296848
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0076-T19",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 5.113464832305908,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 44.00886535644531,
+        "share_of_total_error": 0.956274151802063
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.8698417544364929,
+        "share_of_total_error": 0.018900901079177856
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.6824949383735657,
+        "share_of_total_error": 0.014830018393695354
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0077-T19",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.703835487365723,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 41.27287673950195,
+        "share_of_total_error": 0.9749226570129395
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.3457911014556885,
+        "share_of_total_error": 0.008168065920472145
+      },
+      {
+        "feature": "amount_deviation",
+        "squared_standardized_error": 0.334953635931015,
+        "share_of_total_error": 0.00791206955909729
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0081-T13",
+    "scenario": "location",
+    "actual": 1,
+    "score": 4.713270664215088,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 40.89042663574219,
+        "share_of_total_error": 0.9639550447463989
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 1.161384105682373,
+        "share_of_total_error": 0.027378585189580917
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 0.20552843809127808,
+        "share_of_total_error": 0.004845147952437401
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0081-T14",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.779696941375732,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 41.801429748535156,
+        "share_of_total_error": 0.971735954284668
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.7730701565742493,
+        "share_of_total_error": 0.017971156165003777
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 0.2228185534477234,
+        "share_of_total_error": 0.005179746076464653
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0082-T18",
+    "scenario": "merchant",
+    "actual": 1,
+    "score": 5.02947998046875,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 40.57160568237305,
+        "share_of_total_error": 0.8963066935539246
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 3.325167179107666,
+        "share_of_total_error": 0.07345949113368988
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.6210440993309021,
+        "share_of_total_error": 0.013720087707042694
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0084-T12",
+    "scenario": "location",
+    "actual": 1,
+    "score": 4.477101802825928,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 38.1619758605957,
+        "share_of_total_error": 0.9470903277397156
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.8286018371582031,
+        "share_of_total_error": 0.020563945174217224
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.7882484793663025,
+        "share_of_total_error": 0.01956246979534626
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0084-T13",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.989513397216797,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 43.73326873779297,
+        "share_of_total_error": 0.9738929271697998
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.4447706937789917,
+        "share_of_total_error": 0.009904565289616585
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 0.2211218923330307,
+        "share_of_total_error": 0.0049241469241678715
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0084-T21",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.940121650695801,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 42.93385314941406,
+        "share_of_total_error": 0.9656500220298767
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.5162395238876343,
+        "share_of_total_error": 0.01161104068160057
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.483065664768219,
+        "share_of_total_error": 0.010864907875657082
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0084-T22",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 5.113626003265381,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 43.02344512939453,
+        "share_of_total_error": 0.9348321557044983
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 1.8917820453643799,
+        "share_of_total_error": 0.04110546410083771
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.4481183588504791,
+        "share_of_total_error": 0.00973691139370203
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0085-T09",
+    "scenario": "merchant",
+    "actual": 1,
+    "score": 4.616372585296631,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 38.43808364868164,
+        "share_of_total_error": 0.9251632690429688
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 1.8853991031646729,
+        "share_of_total_error": 0.045379526913166046
+      },
+      {
+        "feature": "cultivar_mismatch",
+        "squared_standardized_error": 0.7787694931030273,
+        "share_of_total_error": 0.01874414272606373
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0089-T09",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.817888259887695,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 42.41609573364258,
+        "share_of_total_error": 0.9782085418701172
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.35286685824394226,
+        "share_of_total_error": 0.00813788641244173
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 0.18347476422786713,
+        "share_of_total_error": 0.004231331869959831
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0090-T17",
+    "scenario": "location",
+    "actual": 1,
+    "score": 5.389205455780029,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 47.43364715576172,
+        "share_of_total_error": 0.9779558777809143
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.5137284398078918,
+        "share_of_total_error": 0.010591716505587101
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 0.21474029123783112,
+        "share_of_total_error": 0.004427374806255102
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0090-T18",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 5.441086769104004,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 47.36237716674805,
+        "share_of_total_error": 0.9671756029129028
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.5096015334129333,
+        "share_of_total_error": 0.010406449437141418
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.4139683246612549,
+        "share_of_total_error": 0.008453547023236752
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0091-T25",
+    "scenario": "merchant",
+    "actual": 1,
+    "score": 4.67591667175293,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 41.41996383666992,
+        "share_of_total_error": 0.9842386841773987
+      },
+      {
+        "feature": "amount_deviation",
+        "squared_standardized_error": 0.20357967913150787,
+        "share_of_total_error": 0.004837546497583389
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 0.1777697652578354,
+        "share_of_total_error": 0.004224240314215422
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0092-T06",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.863576889038086,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 42.04206848144531,
+        "share_of_total_error": 0.96047443151474
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.5970076322555542,
+        "share_of_total_error": 0.013638971373438835
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.5284327864646912,
+        "share_of_total_error": 0.012072340585291386
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0092-T18",
+    "scenario": "combined",
+    "actual": 1,
+    "score": 11.696033477783203,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 33.60590362548828,
+        "share_of_total_error": 0.3192526400089264
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 28.72286033630371,
+        "share_of_total_error": 0.2728642225265503
+      },
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 27.45104217529297,
+        "share_of_total_error": 0.26078206300735474
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0092-T23",
+    "scenario": "amount",
+    "actual": 1,
+    "score": 5.219630241394043,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 39.68141555786133,
+        "share_of_total_error": 0.8447046279907227
+      },
+      {
+        "feature": "quantity_deviation",
+        "squared_standardized_error": 5.771263599395752,
+        "share_of_total_error": 0.12285380810499191
+      },
+      {
+        "feature": "amount_deviation",
+        "squared_standardized_error": 0.9840174913406372,
+        "share_of_total_error": 0.020946936681866646
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0093-T14",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 5.155102729797363,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 43.582157135009766,
+        "share_of_total_error": 0.9393531680107117
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 1.2444300651550293,
+        "share_of_total_error": 0.02682196907699108
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.6563992500305176,
+        "share_of_total_error": 0.014147778041660786
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0094-T08",
+    "scenario": "location",
+    "actual": 1,
+    "score": 5.433168411254883,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 47.7574577331543,
+        "share_of_total_error": 0.9766647815704346
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.550519585609436,
+        "share_of_total_error": 0.011258411221206188
+      },
+      {
+        "feature": "cultivar_mismatch",
+        "squared_standardized_error": 0.2391713261604309,
+        "share_of_total_error": 0.004891177639365196
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0094-T09",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 5.653618812561035,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 48.71791076660156,
+        "share_of_total_error": 0.9574577808380127
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.8543057441711426,
+        "share_of_total_error": 0.0167897529900074
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.4677330553531647,
+        "share_of_total_error": 0.009192402474582195
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0095-T11",
+    "scenario": "location",
+    "actual": 1,
+    "score": 5.2365899085998535,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 45.93116760253906,
+        "share_of_total_error": 0.9745775461196899
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.7650373578071594,
+        "share_of_total_error": 0.016232728958129883
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 0.20991666615009308,
+        "share_of_total_error": 0.004454057663679123
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0095-T12",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 5.210611343383789,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 45.19028091430664,
+        "share_of_total_error": 0.9636378884315491
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.6392270922660828,
+        "share_of_total_error": 0.013630883768200874
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.4500637650489807,
+        "share_of_total_error": 0.00959716271609068
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0095-T21",
+    "scenario": "combined",
+    "actual": 1,
+    "score": 12.37979507446289,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 41.374324798583984,
+        "share_of_total_error": 0.3713427484035492
+      },
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 30.002540588378906,
+        "share_of_total_error": 0.26927873492240906
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 29.732563018798828,
+        "share_of_total_error": 0.2668556272983551
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0096-T05",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.899214267730713,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 42.46644973754883,
+        "share_of_total_error": 0.9631125330924988
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.7997990846633911,
+        "share_of_total_error": 0.0181389432400465
+      },
+      {
+        "feature": "quantity_deviation",
+        "squared_standardized_error": 0.3264820873737335,
+        "share_of_total_error": 0.0074044098146259785
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0096-T23",
+    "scenario": "location",
+    "actual": 1,
+    "score": 5.308406352996826,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 46.428836822509766,
+        "share_of_total_error": 0.971809446811676
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.7904356718063354,
+        "share_of_total_error": 0.016544736921787262
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 0.2169773131608963,
+        "share_of_total_error": 0.004541587084531784
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0096-T24",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 5.326185703277588,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 45.56240463256836,
+        "share_of_total_error": 0.9504905343055725
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 1.0596778392791748,
+        "share_of_total_error": 0.022106247022747993
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.5997921228408813,
+        "share_of_total_error": 0.012512437999248505
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0097-T24",
+    "scenario": "merchant",
+    "actual": 1,
+    "score": 4.608954906463623,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 40.239097595214844,
+        "share_of_total_error": 0.9700704216957092
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.48776009678840637,
+        "share_of_total_error": 0.011758754029870033
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.3467353582382202,
+        "share_of_total_error": 0.008358977735042572
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0099-T07",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.719019889831543,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 41.78079605102539,
+        "share_of_total_error": 0.9837446212768555
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 0.16991518437862396,
+        "share_of_total_error": 0.004000717308372259
+      },
+      {
+        "feature": "amount_deviation",
+        "squared_standardized_error": 0.1315947324037552,
+        "share_of_total_error": 0.003098447807133198
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0099-T18",
+    "scenario": "location",
+    "actual": 1,
+    "score": 4.696012020111084,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 41.201988220214844,
+        "share_of_total_error": 0.9748694896697998
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.6791872382164001,
+        "share_of_total_error": 0.01607007160782814
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 0.1987413614988327,
+        "share_of_total_error": 0.004702367354184389
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0101-T05",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.762778282165527,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 42.2501106262207,
+        "share_of_total_error": 0.9856550693511963
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.1718531847000122,
+        "share_of_total_error": 0.004009172320365906
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 0.13183827698230743,
+        "share_of_total_error": 0.003075662301853299
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0101-T06",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.520515441894531,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 39.54963302612305,
+        "share_of_total_error": 0.9721022844314575
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.32465454936027527,
+        "share_of_total_error": 0.007979781366884708
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.27196571230888367,
+        "share_of_total_error": 0.006684726569801569
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0101-T07",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.521538734436035,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 39.429325103759766,
+        "share_of_total_error": 0.968925952911377
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.8944371938705444,
+        "share_of_total_error": 0.021979667246341705
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 0.2236519455909729,
+        "share_of_total_error": 0.005495964549481869
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0102-T09",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.885250091552734,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 42.64494323730469,
+        "share_of_total_error": 0.9699251055717468
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.41965892910957336,
+        "share_of_total_error": 0.00954480655491352
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.38297346234321594,
+        "share_of_total_error": 0.008710424415767193
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0102-T20",
+    "scenario": "combined",
+    "actual": 1,
+    "score": 12.197689056396484,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 43.69313430786133,
+        "share_of_total_error": 0.39800918102264404
+      },
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 29.725751876831055,
+        "share_of_total_error": 0.2707776129245758
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 26.873308181762695,
+        "share_of_total_error": 0.24479414522647858
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0105-T06",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 5.228762149810791,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 43.69293212890625,
+        "share_of_total_error": 0.9284740090370178
+      },
+      {
+        "feature": "cultivar_mismatch",
+        "squared_standardized_error": 1.5406397581100464,
+        "share_of_total_error": 0.032738566398620605
+      },
+      {
+        "feature": "amount_deviation",
+        "squared_standardized_error": 0.521069347858429,
+        "share_of_total_error": 0.011072713881731033
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0106-T10",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.706457614898682,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 39.7426643371582,
+        "share_of_total_error": 0.9382537603378296
+      },
+      {
+        "feature": "cultivar_mismatch",
+        "squared_standardized_error": 1.3681325912475586,
+        "share_of_total_error": 0.03229917958378792
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 0.4628962576389313,
+        "share_of_total_error": 0.010928158648312092
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0106-T16",
+    "scenario": "merchant",
+    "actual": 1,
+    "score": 4.7472124099731445,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 41.8678092956543,
+        "share_of_total_error": 0.9799389839172363
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.37370604276657104,
+        "share_of_total_error": 0.008746794424951077
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 0.15634718537330627,
+        "share_of_total_error": 0.0036593913100659847
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0106-T25",
+    "scenario": "merchant",
+    "actual": 1,
+    "score": 4.830511093139648,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 41.44205093383789,
+        "share_of_total_error": 0.9532474875450134
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.8350938558578491,
+        "share_of_total_error": 0.01920877769589424
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 0.7173447608947754,
+        "share_of_total_error": 0.0165003202855587
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0106-T29",
+    "scenario": "amount",
+    "actual": 1,
+    "score": 6.079133033752441,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 43.490482330322266,
+        "share_of_total_error": 0.794895589351654
+      },
+      {
+        "feature": "quantity_deviation",
+        "squared_standardized_error": 8.388638496398926,
+        "share_of_total_error": 0.1533230096101761
+      },
+      {
+        "feature": "amount_deviation",
+        "squared_standardized_error": 1.828521966934204,
+        "share_of_total_error": 0.03342073783278465
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0108-T06",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.583494186401367,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 38.77781295776367,
+        "share_of_total_error": 0.9400352239608765
+      },
+      {
+        "feature": "cultivar_mismatch",
+        "squared_standardized_error": 1.403306245803833,
+        "share_of_total_error": 0.03401835262775421
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 0.43983498215675354,
+        "share_of_total_error": 0.010662292130291462
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0109-T06",
+    "scenario": "location",
+    "actual": 1,
+    "score": 4.931473731994629,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 42.97019958496094,
+        "share_of_total_error": 0.9681621789932251
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.770815372467041,
+        "share_of_total_error": 0.017367251217365265
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 0.22597625851631165,
+        "share_of_total_error": 0.005091474391520023
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0109-T07",
+    "scenario": "merchant",
+    "actual": 1,
+    "score": 9.48220157623291,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 42.88665771484375,
+        "share_of_total_error": 0.5025399327278137
+      },
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 39.76051712036133,
+        "share_of_total_error": 0.4659082293510437
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 1.0762308835983276,
+        "share_of_total_error": 0.012611123733222485
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0110-T22",
+    "scenario": "location",
+    "actual": 1,
+    "score": 5.117219924926758,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 44.88447570800781,
+        "share_of_total_error": 0.9745847582817078
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.7605441808700562,
+        "share_of_total_error": 0.01651383377611637
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 0.21959562599658966,
+        "share_of_total_error": 0.0047681196592748165
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0110-T23",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.974897861480713,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 43.15217208862305,
+        "share_of_total_error": 0.9637756943702698
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.8942978382110596,
+        "share_of_total_error": 0.01997356116771698
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.38034293055534363,
+        "share_of_total_error": 0.008494711481034756
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0111-T05",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 5.133096694946289,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 44.941436767578125,
+        "share_of_total_error": 0.9728032350540161
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.5456372499465942,
+        "share_of_total_error": 0.011810875497758389
+      },
+      {
+        "feature": "quantity_deviation",
+        "squared_standardized_error": 0.18824179470539093,
+        "share_of_total_error": 0.004074685741215944
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0111-T19",
+    "scenario": "location",
+    "actual": 1,
+    "score": 5.415133953094482,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 47.09627151489258,
+        "share_of_total_error": 0.966350793838501
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 1.2290434837341309,
+        "share_of_total_error": 0.025218283757567406
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 0.26323676109313965,
+        "share_of_total_error": 0.005401256959885359
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0112-T05",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 5.246950149536133,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 41.19892883300781,
+        "share_of_total_error": 0.8724417686462402
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 5.316518783569336,
+        "share_of_total_error": 0.11258431524038315
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 0.27200955152511597,
+        "share_of_total_error": 0.0057601616717875
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0113-T19",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.751277446746826,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 38.24951171875,
+        "share_of_total_error": 0.8944849371910095
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 1.7917922735214233,
+        "share_of_total_error": 0.041902005672454834
+      },
+      {
+        "feature": "cultivar_mismatch",
+        "squared_standardized_error": 0.8417572975158691,
+        "share_of_total_error": 0.019684936851263046
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0117-T06",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 5.063756465911865,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 43.74971389770508,
+        "share_of_total_error": 0.9599749445915222
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.6841958165168762,
+        "share_of_total_error": 0.015012918040156364
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 0.4254189431667328,
+        "share_of_total_error": 0.009334724396467209
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0117-T07",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.456099510192871,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 39.17520523071289,
+        "share_of_total_error": 0.9768184423446655
+      },
+      {
+        "feature": "quantity_deviation",
+        "squared_standardized_error": 0.4033191502094269,
+        "share_of_total_error": 0.010056605562567711
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.22104036808013916,
+        "share_of_total_error": 0.005511554889380932
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0117-T15",
+    "scenario": "amount",
+    "actual": 1,
+    "score": 6.712832450866699,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 48.93463897705078,
+        "share_of_total_error": 0.8099683523178101
+      },
+      {
+        "feature": "quantity_deviation",
+        "squared_standardized_error": 8.974132537841797,
+        "share_of_total_error": 0.14854025840759277
+      },
+      {
+        "feature": "amount_deviation",
+        "squared_standardized_error": 1.563680648803711,
+        "share_of_total_error": 0.025882113724946976
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0121-T07",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.676877021789551,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 40.329410552978516,
+        "share_of_total_error": 0.9581277370452881
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.7123265266418457,
+        "share_of_total_error": 0.016923129558563232
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 0.4289470314979553,
+        "share_of_total_error": 0.01019072812050581
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0122-T12",
+    "scenario": "merchant",
+    "actual": 1,
+    "score": 4.596442222595215,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 39.95458984375,
+        "share_of_total_error": 0.9658336639404297
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.6789329648017883,
+        "share_of_total_error": 0.0164120402187109
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 0.20898817479610443,
+        "share_of_total_error": 0.0050519309006631374
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0123-T05",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.765287399291992,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 41.996944427490234,
+        "share_of_total_error": 0.9792331457138062
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.22341714799404144,
+        "share_of_total_error": 0.005209366325289011
+      },
+      {
+        "feature": "quantity_deviation",
+        "squared_standardized_error": 0.16251668334007263,
+        "share_of_total_error": 0.0037893643602728844
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0125-T05",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.598374843597412,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 40.36295700073242,
+        "share_of_total_error": 0.9752951860427856
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.27796420454978943,
+        "share_of_total_error": 0.006716483738273382
+      },
+      {
+        "feature": "quantity_deviation",
+        "squared_standardized_error": 0.26224467158317566,
+        "share_of_total_error": 0.006336650811135769
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0125-T25",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.790920257568359,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 41.74030685424805,
+        "share_of_total_error": 0.9680420756340027
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 1.0346053838729858,
+        "share_of_total_error": 0.02399458922445774
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 0.1662820428609848,
+        "share_of_total_error": 0.0038564165588468313
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0125-T26",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.761077404022217,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 41.725460052490234,
+        "share_of_total_error": 0.9737632274627686
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.704026997089386,
+        "share_of_total_error": 0.016430150717496872
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 0.1778528392314911,
+        "share_of_total_error": 0.00415062066167593
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0126-T20",
+    "scenario": "combined",
+    "actual": 1,
+    "score": 8.431255340576172,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 28.18514633178711,
+        "share_of_total_error": 0.37143731117248535
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 24.769350051879883,
+        "share_of_total_error": 0.3264223039150238
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 17.2445125579834,
+        "share_of_total_error": 0.2272564172744751
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0126-T28",
+    "scenario": "combined",
+    "actual": 1,
+    "score": 8.618727684020996,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 27.61315155029297,
+        "share_of_total_error": 0.35598382353782654
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 23.488094329833984,
+        "share_of_total_error": 0.3028043210506439
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 22.52747917175293,
+        "share_of_total_error": 0.2904202342033386
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0127-T06",
+    "scenario": "combined",
+    "actual": 1,
+    "score": 11.902904510498047,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 34.602413177490234,
+        "share_of_total_error": 0.323006272315979
+      },
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 30.137510299682617,
+        "share_of_total_error": 0.28132733702659607
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 26.874290466308594,
+        "share_of_total_error": 0.2508658468723297
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0128-T22",
+    "scenario": "location",
+    "actual": 1,
+    "score": 4.922923564910889,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 41.550270080566406,
+        "share_of_total_error": 0.9377956986427307
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 1.8821821212768555,
+        "share_of_total_error": 0.04248112812638283
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.36832866072654724,
+        "share_of_total_error": 0.008313232101500034
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0128-T29",
+    "scenario": "location",
+    "actual": 1,
+    "score": 5.158507823944092,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 44.27192687988281,
+        "share_of_total_error": 0.9535902738571167
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 1.0455024242401123,
+        "share_of_total_error": 0.022519484162330627
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.6890679001808167,
+        "share_of_total_error": 0.01484210230410099
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0129-T05",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.808172702789307,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 37.31050491333008,
+        "share_of_total_error": 0.8622010946273804
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 2.109112501144409,
+        "share_of_total_error": 0.04873906448483467
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 1.5765058994293213,
+        "share_of_total_error": 0.03643116354942322
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0130-T20",
+    "scenario": "combined",
+    "actual": 1,
+    "score": 9.397625923156738,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 27.15637969970703,
+        "share_of_total_error": 0.32107847929000854
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 26.808998107910156,
+        "share_of_total_error": 0.3169712722301483
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 24.23666000366211,
+        "share_of_total_error": 0.28655770421028137
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0131-T06",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.766175270080566,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 42.221553802490234,
+        "share_of_total_error": 0.9842867851257324
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 0.16890361905097961,
+        "share_of_total_error": 0.003937553148716688
+      },
+      {
+        "feature": "quantity_deviation",
+        "squared_standardized_error": 0.136343851685524,
+        "share_of_total_error": 0.00317850592546165
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0131-T07",
+    "scenario": "merchant",
+    "actual": 1,
+    "score": 4.795106410980225,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 42.533790588378906,
+        "share_of_total_error": 0.9855833053588867
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.23285964131355286,
+        "share_of_total_error": 0.005395770538598299
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 0.15966355800628662,
+        "share_of_total_error": 0.0036996875423938036
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0132-T05",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.812119483947754,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 42.283565521240234,
+        "share_of_total_error": 0.9763210415840149
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.3957606852054596,
+        "share_of_total_error": 0.009138054214417934
+      },
+      {
+        "feature": "amount_deviation",
+        "squared_standardized_error": 0.1683061420917511,
+        "share_of_total_error": 0.0038861630018800497
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0133-T13",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 5.140278339385986,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 42.24821472167969,
+        "share_of_total_error": 0.9132279753684998
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 2.9161314964294434,
+        "share_of_total_error": 0.06303445249795914
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.4315602779388428,
+        "share_of_total_error": 0.009328510612249374
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0133-T14",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.9078545570373535,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 40.89138412475586,
+        "share_of_total_error": 0.9257583022117615
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 2.143190860748291,
+        "share_of_total_error": 0.04852065443992615
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.3232322931289673,
+        "share_of_total_error": 0.00731780007481575
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0134-T20",
+    "scenario": "combined",
+    "actual": 1,
+    "score": 8.362031936645508,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 26.73392105102539,
+        "share_of_total_error": 0.3552289307117462
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 25.565326690673828,
+        "share_of_total_error": 0.3397011458873749
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 18.387271881103516,
+        "share_of_total_error": 0.24432222545146942
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0135-T05",
+    "scenario": "location",
+    "actual": 1,
+    "score": 9.277632713317871,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 40.101558685302734,
+        "share_of_total_error": 0.48026567697525024
+      },
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 38.78773498535156,
+        "share_of_total_error": 0.4645310342311859
+      },
+      {
+        "feature": "cultivar_mismatch",
+        "squared_standardized_error": 2.373112440109253,
+        "share_of_total_error": 0.028420953080058098
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0135-T06",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 5.019335746765137,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 43.79264831542969,
+        "share_of_total_error": 0.9694210290908813
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.6176342368125916,
+        "share_of_total_error": 0.013672332279384136
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 0.2274974137544632,
+        "share_of_total_error": 0.0050360229797661304
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0136-T15",
+    "scenario": "combined",
+    "actual": 1,
+    "score": 9.94119644165039,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 28.670177459716797,
+        "share_of_total_error": 0.320441871881485
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 28.459264755249023,
+        "share_of_total_error": 0.3180845379829407
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 28.266902923583984,
+        "share_of_total_error": 0.31593453884124756
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0137-T08",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.836803913116455,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 41.93313217163086,
+        "share_of_total_error": 0.9632883667945862
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 0.8490741848945618,
+        "share_of_total_error": 0.019504941999912262
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.20943468809127808,
+        "share_of_total_error": 0.0048111360520124435
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0137-T15",
+    "scenario": "combined",
+    "actual": 1,
+    "score": 12.614185333251953,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 42.483192443847656,
+        "share_of_total_error": 0.37421005964279175
+      },
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 31.003244400024414,
+        "share_of_total_error": 0.27308976650238037
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 28.543909072875977,
+        "share_of_total_error": 0.25142690539360046
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0138-T06",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.8067522048950195,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 42.11958312988281,
+        "share_of_total_error": 0.9736207723617554
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 0.6935973763465881,
+        "share_of_total_error": 0.01603294163942337
+      },
+      {
+        "feature": "amount_deviation",
+        "squared_standardized_error": 0.1345209777355194,
+        "share_of_total_error": 0.003109537297859788
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0138-T09",
+    "scenario": "merchant",
+    "actual": 1,
+    "score": 5.015748023986816,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 43.68984603881836,
+        "share_of_total_error": 0.9678371548652649
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.3907976448535919,
+        "share_of_total_error": 0.008657125756144524
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.3731013536453247,
+        "share_of_total_error": 0.008265109732747078
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0141-T05",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.754054069519043,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 41.06583786010742,
+        "share_of_total_error": 0.9597852230072021
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.6405439972877502,
+        "share_of_total_error": 0.014970707707107067
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.5243439078330994,
+        "share_of_total_error": 0.012254894711077213
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0141-T14",
+    "scenario": "merchant",
+    "actual": 1,
+    "score": 4.947012901306152,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 41.7404670715332,
+        "share_of_total_error": 0.9375009536743164
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 1.8371646404266357,
+        "share_of_total_error": 0.0412631593644619
+      },
+      {
+        "feature": "quantity_deviation",
+        "squared_standardized_error": 0.4152563512325287,
+        "share_of_total_error": 0.009326757863163948
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0141-T23",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.440495014190674,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 38.09678649902344,
+        "share_of_total_error": 0.9532667398452759
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.8469289541244507,
+        "share_of_total_error": 0.021192055195569992
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.6067401170730591,
+        "share_of_total_error": 0.015181994065642357
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0142-T10",
+    "scenario": "merchant",
+    "actual": 1,
+    "score": 4.997997760772705,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 43.21706771850586,
+        "share_of_total_error": 0.9607640504837036
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.7163311243057251,
+        "share_of_total_error": 0.01592484675347805
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 0.5852079391479492,
+        "share_of_total_error": 0.013009830377995968
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0142-T12",
+    "scenario": "location",
+    "actual": 1,
+    "score": 5.199028491973877,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 45.64856719970703,
+        "share_of_total_error": 0.9755790829658508
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.6852129101753235,
+        "share_of_total_error": 0.014644038863480091
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 0.23021897673606873,
+        "share_of_total_error": 0.004920128732919693
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0142-T13",
+    "scenario": "amount",
+    "actual": 1,
+    "score": 7.546622276306152,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 42.7443962097168,
+        "share_of_total_error": 0.6293381452560425
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 20.922595977783203,
+        "share_of_total_error": 0.30804944038391113
+      },
+      {
+        "feature": "quantity_deviation",
+        "squared_standardized_error": 2.482961416244507,
+        "share_of_total_error": 0.036557361483573914
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0143-T19",
+    "scenario": "combined",
+    "actual": 1,
+    "score": 15.44677734375,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 69.01535034179688,
+        "share_of_total_error": 0.49643832445144653
+      },
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 31.50840187072754,
+        "share_of_total_error": 0.22664491832256317
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 31.487287521362305,
+        "share_of_total_error": 0.22649303078651428
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0144-T06",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.5940680503845215,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 40.31155776977539,
+        "share_of_total_error": 0.9749664068222046
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.3642995357513428,
+        "share_of_total_error": 0.008810868486762047
+      },
+      {
+        "feature": "amount_deviation",
+        "squared_standardized_error": 0.2870314121246338,
+        "share_of_total_error": 0.006942078471183777
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0144-T12",
+    "scenario": "location",
+    "actual": 1,
+    "score": 5.052889823913574,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 43.43026351928711,
+        "share_of_total_error": 0.9550148248672485
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 1.2546876668930054,
+        "share_of_total_error": 0.027590099722146988
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.32689613103866577,
+        "share_of_total_error": 0.007188320625573397
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0144-T13",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.590478897094727,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 38.21039962768555,
+        "share_of_total_error": 0.9248706698417664
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 1.8517014980316162,
+        "share_of_total_error": 0.044819850474596024
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.7489164471626282,
+        "share_of_total_error": 0.018127286806702614
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0144-T23",
+    "scenario": "location",
+    "actual": 1,
+    "score": 5.069779396057129,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 44.11745834350586,
+        "share_of_total_error": 0.9668941497802734
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.5720764994621277,
+        "share_of_total_error": 0.012537835165858269
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.38936924934387207,
+        "share_of_total_error": 0.008533556945621967
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0144-T24",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 5.389101028442383,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 45.236083984375,
+        "share_of_total_error": 0.9326659440994263
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 1.6843682527542114,
+        "share_of_total_error": 0.03472787141799927
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 1.1730246543884277,
+        "share_of_total_error": 0.024185121059417725
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0145-T11",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 5.130723476409912,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 43.691123962402344,
+        "share_of_total_error": 0.9461764097213745
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 1.858690857887268,
+        "share_of_total_error": 0.04025186970829964
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.3205486536026001,
+        "share_of_total_error": 0.006941812112927437
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0145-T14",
+    "scenario": "amount",
+    "actual": 1,
+    "score": 10.01028060913086,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 74.17586517333984,
+        "share_of_total_error": 0.8233299255371094
+      },
+      {
+        "feature": "quantity_deviation",
+        "squared_standardized_error": 12.851966857910156,
+        "share_of_total_error": 0.1426529884338379
+      },
+      {
+        "feature": "amount_deviation",
+        "squared_standardized_error": 2.827641725540161,
+        "share_of_total_error": 0.03138598054647446
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0146-T05",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.956144332885742,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 42.53972244262695,
+        "share_of_total_error": 0.9536921381950378
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 1.2342551946640015,
+        "share_of_total_error": 0.027670597657561302
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.40324899554252625,
+        "share_of_total_error": 0.009040383622050285
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0146-T07",
+    "scenario": "amount",
+    "actual": 1,
+    "score": 4.697972774505615,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 40.05564880371094,
+        "share_of_total_error": 0.9473506808280945
+      },
+      {
+        "feature": "amount_deviation",
+        "squared_standardized_error": 0.9000433683395386,
+        "share_of_total_error": 0.021286802366375923
+      },
+      {
+        "feature": "quantity_deviation",
+        "squared_standardized_error": 0.6181592345237732,
+        "share_of_total_error": 0.014619999565184116
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0146-T28",
+    "scenario": "merchant",
+    "actual": 1,
+    "score": 5.291794300079346,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 40.5192985534668,
+        "share_of_total_error": 0.8507784008979797
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 4.51350736618042,
+        "share_of_total_error": 0.09476952254772186
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 1.1143357753753662,
+        "share_of_total_error": 0.02339756302535534
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0147-T14",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.798783302307129,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 42.23983383178711,
+        "share_of_total_error": 0.9780218601226807
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.3111395835876465,
+        "share_of_total_error": 0.007204131223261356
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 0.2831823229789734,
+        "share_of_total_error": 0.006556808482855558
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0147-T17",
+    "scenario": "location",
+    "actual": 1,
+    "score": 5.143457412719727,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 45.334468841552734,
+        "share_of_total_error": 0.9793340563774109
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.40354299545288086,
+        "share_of_total_error": 0.008717503398656845
+      },
+      {
+        "feature": "log_minutes_since_previous",
+        "squared_standardized_error": 0.2150074541568756,
+        "share_of_total_error": 0.004644680302590132
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0147-T18",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 5.1900787353515625,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 44.951229095458984,
+        "share_of_total_error": 0.9623324275016785
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 1.1822136640548706,
+        "share_of_total_error": 0.025309264659881592
+      },
+      {
+        "feature": "chemical_disagreement",
+        "squared_standardized_error": 0.25563761591911316,
+        "share_of_total_error": 0.0054727839305996895
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0147-T23",
+    "scenario": "amount",
+    "actual": 1,
+    "score": 5.142259120941162,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 39.52898025512695,
+        "share_of_total_error": 0.8541205525398254
+      },
+      {
+        "feature": "quantity_deviation",
+        "squared_standardized_error": 5.583588123321533,
+        "share_of_total_error": 0.12064711004495621
+      },
+      {
+        "feature": "amount_deviation",
+        "squared_standardized_error": 0.9109827876091003,
+        "share_of_total_error": 0.019684016704559326
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0148-T08",
+    "scenario": "combined",
+    "actual": 1,
+    "score": 12.303338050842285,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 49.22255325317383,
+        "share_of_total_error": 0.4445275068283081
+      },
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 31.341421127319336,
+        "share_of_total_error": 0.2830435037612915
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 25.701570510864258,
+        "share_of_total_error": 0.2321101725101471
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0148-T27",
+    "scenario": "merchant",
+    "actual": 1,
+    "score": 4.95039176940918,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 41.4986572265625,
+        "share_of_total_error": 0.9314336776733398
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 2.3247923851013184,
+        "share_of_total_error": 0.05217976123094559
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.4486338496208191,
+        "share_of_total_error": 0.010069547221064568
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0149-T08",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 5.078634738922119,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "new_merchant_category",
+        "squared_standardized_error": 43.547054290771484,
+        "share_of_total_error": 0.9527287483215332
+      },
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 1.295652985572815,
+        "share_of_total_error": 0.028346484526991844
+      },
+      {
+        "feature": "amount_deviation",
+        "squared_standardized_error": 0.2955479621887207,
+        "share_of_total_error": 0.0064660413190722466
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0149-T17",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.813069820404053,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 39.754154205322266,
+        "share_of_total_error": 0.9177361726760864
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 2.3058922290802,
+        "share_of_total_error": 0.05323219299316406
+      },
+      {
+        "feature": "log_purchases_last_hour",
+        "squared_standardized_error": 0.686324417591095,
+        "share_of_total_error": 0.01584399864077568
+      }
+    ]
+  },
+  {
+    "transaction_id": "test-C0149-T18",
+    "scenario": "normal",
+    "actual": 0,
+    "score": 4.567553997039795,
+    "threshold": 4.424379348754883,
+    "top_factors": [
+      {
+        "feature": "log_location_shift_km",
+        "squared_standardized_error": 38.02986526489258,
+        "share_of_total_error": 0.9251210689544678
+      },
+      {
+        "feature": "cultivar_mismatch",
+        "squared_standardized_error": 1.5364007949829102,
+        "share_of_total_error": 0.03737475350499153
+      },
+      {
+        "feature": "log_unit_price",
+        "squared_standardized_error": 0.418911337852478,
+        "share_of_total_error": 0.01019051019102335
+      }
+    ]
+  }
+]

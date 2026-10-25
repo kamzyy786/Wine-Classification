@@ -1,0 +1,17 @@
+{
+  "project": "History-based Wine Transaction Anomaly Detection",
+  "revision": "3.0-history-autoencoder",
+  "student": "Kameshwar Arora",
+  "student_id": "40325656",
+  "primary": "Unsupervised PyTorch autoencoder",
+  "data": "30000 raw events; 1000 customers; 25000 scored transactions; unchanged 178 UCI chemical samples",
+  "previous_study": "Earlier experiments remain in Git history",
+  "repository_folder": "milestone2",
+  "status": "Models and data observed in repository; naming/documentation update prepared locally; POD access unverified",
+  "ae_selection": "Validation reconstruction MSE; no transaction anomaly labels",
+  "ae_threshold": 4.424379348754883,
+  "detectors_sha256": "115337e4657ed22720ee38e74685d65ca93e5d9f68f6e341b71758a81f93c875",
+  "chemistry_sha256": "f9b3eeff751f245a4f70a0ed74d7ca95ec8af0491e9fe23482e42d7a5590e991",
+  "report": "Milestone2_Report.pdf",
+  "guide": "DEMO_GUIDE.md"
+}
