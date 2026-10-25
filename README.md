@@ -1,106 +1,59 @@
-# Chemical-aware Wine Transaction Anomaly Detection
+# Wine Transaction Anomaly Detection
 
-INSE 6450: AI in Systems Engineering, Fall 2026  
-Kameshwar Arora | Student ID: 40325656
+INSE 6450 | Kameshwar Arora | Student ID 40325656
 
-This prototype screens wine purchase transactions using purchase behaviour and a linked laboratory sample. It produces an anomaly risk score, a review decision and local explanation factors. The operational goal is to detect suspicious transactions while making the cost of false alarms and missed anomalies visible.
+The current Milestone 2 study uses a supervised wine chemistry component followed by a small **unsupervised PyTorch autoencoder** for transaction screening. It generates raw customer purchase histories, derives features from past events only, and reports reconstruction-based flags with the three largest per-feature errors.
 
-**The chemical observations come from UCI Wine. All purchase records, purchase-to-sample links and anomaly labels are synthetic. A flag requests human review; it is not proof of fraud, product authenticity or food safety.**
+The chemistry observations are the unchanged UCI Wine dataset from Milestone 1. All customers, purchase events, coordinates and transaction anomaly labels are synthetic. An anomaly flag requests human review; it is not proof of fraud, authenticity or safety.
 
-## Run the transaction screener
+## Run the redesigned system
 
 Use Python 3.12. From the repository root:
 
 ```bash
-cd milestone2
+cd milestone2_redesign
 python -m pip install -r requirements.txt
 python verify.py
-python demo.py --row 0
+python demo.py --customer test-C0005 --event 8
 ```
 
-The demo loads the included checkpoint; no retraining, API key or external service is needed. `verify.py` checks sample separation, preserved splits, checkpoint-score agreement, invalid-input rejection and metric recomputation.
+- [Redesigned report](milestone2_redesign/Milestone_2_Report.pdf)
+- [Executed notebook demo](milestone2_redesign/Demo.ipynb)
+- [Setup, methods and results](milestone2_redesign/README.md)
+- [Professor demonstration guide](milestone2_redesign/DEMO_GUIDE.md)
+- [Measured metrics](milestone2_redesign/results/metrics.json)
+- [Threshold trade-offs](milestone2_redesign/results/threshold_tradeoffs.csv)
 
-For the notebook demonstration, open [Demo.ipynb](milestone2/Demo.ipynb) in VS Code or Jupyter. Saved outputs are included. For Jupyter:
+## New study
 
-```bash
-python -m pip install jupyterlab ipykernel
-python -m jupyter lab
-```
+The generator creates 30,000 raw events across 1,000 customers. Five initial events per customer establish history, leaving 25,000 scored events. Customer IDs and linked wine sample groups are disjoint across train/validation/test. History features are calculated before updating customer state.
 
-Follow the [demonstration guide](milestone2/DEMO_GUIDE.md) for examples and presentation steps.
+The primary AE trains without anomaly/scenario labels, including the naturally contaminated simulated training records. Its 9-8-3-8-9 architecture is selected using validation reconstruction loss; a predeclared validation-score 95th percentile fixes the threshold. A transaction-only AE tests the chemical component. Weighted and unweighted supervised MLPs are retrained using exactly the same data partitions.
 
-## System and inputs
+| New test result | AE + chemistry | Transaction-only AE | Weighted supervised MLP |
+| --- | ---: | ---: | ---: |
+| Test transactions / anomalies | 3,750 / 280 | Same | Same |
+| Macro F1 | 0.673 | 0.655 | 0.884 |
+| Anomaly precision | 0.474 | 0.429 | 0.944 |
+| Anomaly recall | 0.329 | 0.300 | 0.668 |
+| False alarms / missed anomalies | 102 / 188 | 112 / 196 | 11 / 93 |
 
-1. Validate a purchase record and its linked laboratory sample.
-2. Predict cultivar probabilities from the sample's 13 chemical measurements.
-3. Compare the predicted cultivar with the purchase's declared cultivar.
-4. Combine that consistency signal with unit price, quantity, recent purchase frequency and a new-merchant-category indicator.
-5. Return a binary screening decision, an uncalibrated risk score and the three strongest reported local explanation factors.
+The autoencoder is primary because it fits without transaction anomaly labels, not because it outperforms the labelled comparator. Scenario-specific failures, unlabelled training contamination and the threshold's review-volume trade-off are reported. The old experiment used different data, so its scores are not used as direct comparisons.
 
-The main chemical model is a small 13-16-3 PyTorch network. The selected risk model is a 6-16-2 PyTorch network, with a validation-selected threshold of 0.45. Neither sample identifiers nor true cultivar labels are inputs to the transaction classifier. Because synthetic scenarios provide labels, anomaly screening is trained as supervised binary classification.
+## Milestone 1 foundation
 
-## Held-out synthetic test results
+The existing root `process.py`, `data/raw/wine.csv`, `outputs/` and root dependency file retain the chemical preprocessing work. That stage prepares 178 chemical samples with the original 124/27/27 split. The retained chemical classifier adds a sample-to-declared-cultivar consistency signal in the redesigned study. More transactions do not create more independent chemical samples.
 
-The test partition contains 540 purchases generated from 27 held-out wine samples: 100 labelled anomalies and 440 normal purchases. Purchases linked to the same sample remain in one partition.
+To regenerate the original preprocessing, run `python process.py` from the root after installing the root requirements. Its 17 exploratory IQR flags are chemical review flags, not verified fraud.
 
-| Metric | Transaction-only model | Selected combined model |
-| --- | ---: | ---: |
-| Accuracy | 92.22% | 94.07% |
-| Macro F1 | 0.846 | 0.909 |
-| Anomaly precision | 98.33% | 78.33% |
-| Anomaly recall | 59.00% | 94.00% |
-| Detected anomalies | 59 | 94 |
-| Missed anomalies | 41 | 6 |
-| False alarms | 1 | 26 |
+## Earlier transaction study
 
-Adding chemistry catches more simulated declaration inconsistencies but increases review workload. The gain depends on the generator's scenarios. The sample-cluster bootstrap interval for the macro F1 difference includes zero; these results do not establish superiority on real transactions.
+The existing `milestone2/` folder is the previous supervised-only transaction study, retained as an identifiable earlier version. The current report and demo are in **`milestone2_redesign/`**. Milestone 1 data and submitted work are preserved.
 
-## Inspect the report and evidence
+## Reproduce and continue
 
-- [Milestone 2 report](milestone2/Milestone_2_Report.pdf): architecture, experiments, efficiency, deployment design, rubric audit and worked explanation examples.
-- [Measured metrics](milestone2/results/metrics.json): validation/test scores, confusion matrices, training times and environment.
-- [Learning curves and predictions](milestone2/results/): PNG plots, epoch histories and test predictions.
-- [Transaction explanations](milestone2/results/test_explanations.json): explanations for every test purchase.
-- [Serving efficiency audit](milestone2/results/efficiency_audit.json): fresh-process memory, demo timing and analytical training-compute estimates.
-- [Model checkpoint](milestone2/models/screening.pt): weights and preprocessing parameters.
+From `milestone2_redesign/`, run `python experiment.py`, `python efficiency.py`, `python verify.py`, and `python build_report.py`. Results include raw-event histories, features, all model predictions, learning curves, every flagged explanation, runtime measurements and configuration.
 
-Explanations replace a feature group with its **overall training means** and measure the score reduction. They are local sensitivity diagnostics, not causal attributions or a normal-only reference. Negative score reductions are retained and explained.
+The local event-replay CLI and notebook are implemented. Hosted API, durable shared state, laboratory integration, caching and review-queue services remain documented deployment designs. The detailed report distinguishes measured behaviour from these planned components.
 
-## Reproduce the experiments
-
-From `milestone2/`:
-
-```bash
-python experiment.py
-python explain_results.py
-python efficiency_audit.py
-python verify.py
-python build_report.py
-```
-
-These commands overwrite generated results. Seeds and hyperparameters are recorded in [config.json](milestone2/config.json); recorded dependency versions are in [environment_versions.txt](milestone2/environment_versions.txt). Timings vary by hardware. Model selection and thresholds use validation data; the reported test partition is held out from training and selection.
-
-## Milestone 1: chemical profiling foundation
-
-The root `process.py` prepares the original UCI Wine measurements. It performs data checks, creates the fixed sample splits, fits training-only preprocessing and saves arrays, tensors and descriptive plots. That stage contains no trained classifier. Trained chemical and risk models are provided under `milestone2/`.
-
-To reproduce the original preprocessing from the repository root:
-
-```bash
-python -m pip install -r requirements.txt
-python process.py --raw data/raw/wine.csv --out outputs
-```
-
-`outputs/` contains the original summary statistics, quality checks, distributions, correlations, preprocessing parameters and sample assignments. The 17 descriptive IQR flags are chemical review flags, not confirmed fraudulent purchases. The raw dataset and original split assignments are preserved.
-
-The chemical profiling stage provides the foundation for the later laboratory-to-declaration consistency check. Transaction generation, risk modelling and evaluation are implemented in Milestone 2.
-
-## Scope and further development
-
-The local checkpoint demo and notebook are implemented. The hybrid serving architecture, hosted API, shared transaction history, caching, asynchronous review queue and rollback workflow are deployment designs. A hosted production service has not been implemented.
-
-Recent-purchase and merchant-category indicators are generated directly by the simulator rather than reconstructed from a real event history. Real-world use requires compatible purchase-linked laboratory observations, verified outcomes, calibration and external evaluation. See [DEMO_GUIDE.md](milestone2/DEMO_GUIDE.md) for the continuation plan.
-
-## Data attribution
-
-The historical chemical measurements are the UCI Wine dataset, licensed under CC BY 4.0. See the root [DATA_SOURCE.md](DATA_SOURCE.md) and [Milestone 2 data notes](milestone2/DATA_SOURCE.md). Synthetic purchases are generated by `milestone2/experiment.py` and are documented in `milestone2/README.md`.
+Data attribution: [original source notes](DATA_SOURCE.md) and [redesigned data notes](milestone2_redesign/DATA_SOURCE.md).
