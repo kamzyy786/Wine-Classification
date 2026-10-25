@@ -17,7 +17,7 @@ python verify.py
 python demo.py --customer test-C0005 --event 8
 ```
 
-- [Redesigned report](milestone2/Milestone_2_Report.pdf)
+- [Current report](milestone2/Milestone2_Report.pdf)
 - [Executed notebook demo](milestone2/Demo.ipynb)
 - [Setup, methods and results](milestone2/README.md)
 - [Professor demonstration guide](milestone2/DEMO_GUIDE.md)
@@ -42,7 +42,7 @@ The autoencoder is primary because it fits without transaction anomaly labels, n
 
 ## Milestone 1 foundation
 
-The existing root `process.py`, `data/raw/wine.csv`, `outputs/` and root dependency file retain the chemical preprocessing work. That stage prepares 178 chemical samples with the original 124/27/27 split. The retained chemical classifier adds a sample-to-declared-cultivar consistency signal in the redesigned study. More transactions do not create more independent chemical samples.
+The existing root `process.py`, `data/raw/wine.csv`, `outputs/` and root dependency file retain the chemical preprocessing work. That stage prepares 178 chemical samples with the original 124/27/27 split. The retained chemical classifier adds a sample-to-declared-cultivar consistency signal in the current study. More transactions do not create more independent chemical samples.
 
 To regenerate the original preprocessing, run `python process.py` from the root after installing the root requirements. Its 17 exploratory IQR flags are chemical review flags, not verified fraud.
 
@@ -53,4 +53,4 @@ From `milestone2/`, run `python experiment.py`, `python efficiency.py`, `python 
 
 The local event-replay CLI and notebook are implemented. Hosted API, durable shared state, laboratory integration, caching and review-queue services remain documented deployment designs. The detailed report distinguishes measured behaviour from these planned components.
 
-Data attribution: [original source notes](DATA_SOURCE.md) and [redesigned data notes](milestone2/DATA_SOURCE.md).
+Data attribution: [original source notes](DATA_SOURCE.md) and [current data notes](milestone2/DATA_SOURCE.md).
