@@ -39,7 +39,7 @@ The PyTorch file is a dictionary of float32 feature tensors and int64 target ten
 The script uses all records only for descriptive reporting. Model transformations are fitted exclusively on the training partition. For future cross-validation, refit these transformations independently within every training fold, rather than reusing the saved globally fitted training arrays across folds.
 
 ## Files
-- Milestone_1_Report.pdf: six-page report with student ID and repository URL fields to complete.
+- Milestone_1_Report.pdf: six-page report 
 - report_editable.md: editable report text; charts are saved separately in outputs/.
 - process.py: runnable checks, splitting, preprocessing and artifact generation.
 - DATA_SOURCE.md: attribution, licence and source details.
