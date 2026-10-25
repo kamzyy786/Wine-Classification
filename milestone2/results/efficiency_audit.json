@@ -1,0 +1,21 @@
+{
+  "fresh_process_baseline_rss_mib": 354.99609375,
+  "checkpoint_loaded_rss_mib": 361.0078125,
+  "warm_inference_rss_mib": 367.66796875,
+  "checkpoint_load_increment_mib": 6.01171875,
+  "os_peak_rss_mib": 367.39453125,
+  "scoring_and_explanations_batch1": {
+    "warmup": 100,
+    "calls": 1000,
+    "p50_ms": 0.26563950000000003,
+    "p90_ms": 0.6558326000000001,
+    "p95_ms": 0.859189349999999,
+    "samples_per_second": 2699.217611531166
+  },
+  "training_dense_compute_estimate": {
+    "chemical_gflops": 0.011999232,
+    "selected_risk_gflops": 0.07237632,
+    "total_main_models_gflops": 0.084375552,
+    "scope": "Analytical dense forward/backward estimate: 3 x dense forward FLOPs x training samples x executed epochs. Includes patience epochs; excludes optimizer, loss, activation, validation, cross-validation and out-of-fold fits. Not hardware profiling."
+  }
+}
