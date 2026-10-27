@@ -20,7 +20,6 @@ python demo.py --customer test-C0005 --event 8
 - [Current report](milestone2/Milestone2.pdf)
 - [Executed notebook demo](milestone2/Demo.ipynb)
 - [Setup, methods and results](milestone2/README.md)
-- [Professor demonstration guide](milestone2/DEMO_GUIDE.md)
 - [Measured metrics](milestone2/results/metrics.json)
 - [Threshold trade-offs](milestone2/results/threshold_tradeoffs.csv)
 
