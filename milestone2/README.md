@@ -83,7 +83,7 @@ The experiment regenerates raw events, derived features, transaction models, his
 | `results/*_test_predictions.csv` | Model scores, decisions and held-out labels |
 | `results/threshold_tradeoffs.csv` | Frozen validation-quantile thresholds and FP/FN consequences |
 | `Milestone2.pdf` | New report with rubric coverage, failures, efficiencies and deployment design |
-| `DEMO_GUIDE.md`, `PROJECT_STATE.json` | Presentation steps and continuation state |
+| `PROJECT_STATE.json` | Presentation steps and continuation state |
 
 ## Implementation boundary
 
