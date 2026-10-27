@@ -12,6 +12,5 @@
   "detectors_sha256": "bdd8ac65eab66b970d40af17589690be81a1458965cb4e857f8a08e34e8ccc6b",
   "chemistry_sha256": "f9b3eeff751f245a4f70a0ed74d7ca95ec8af0491e9fe23482e42d7a5590e991",
   "report": "Milestone2.pdf",
-  "guide": "DEMO_GUIDE.md",
   "audit_revision": "3.1 complete supervised comparisons"
 }
