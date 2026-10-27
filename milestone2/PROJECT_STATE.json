@@ -7,7 +7,6 @@
   "data": "30000 raw events; 1000 customers; 25000 scored transactions; unchanged 178 UCI chemical samples",
   "previous_study": "Earlier experiments remain in Git history",
   "repository_folder": "milestone2",
-  "status": "Complete six-model comparison and audit prepared locally; repository upload and POD access require confirmation",
   "ae_selection": "Validation reconstruction MSE; no transaction anomaly labels",
   "ae_threshold": 4.424379348754883,
   "detectors_sha256": "bdd8ac65eab66b970d40af17589690be81a1458965cb4e857f8a08e34e8ccc6b",
